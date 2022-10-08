@@ -41,11 +41,14 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, 10rem);
         grid-template-rows: repeat(auto-fill, 16rem);
-        gap: 3rem;
         justify-content: center;
+        gap: 3rem;
         padding: 2rem 0;
         margin: 0 23rem 0 23rem;
         border-top: solid 5px #ff7a00;
+    }
+
+    .animes {
     }
 
     .serie {

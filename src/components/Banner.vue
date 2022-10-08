@@ -15,7 +15,7 @@ export default {
         background: cover;
         display: flex;
         justify-content: center;
-        height: 500px;
+        height: auto;
         background-color: #2b2b2b;
     }
 </style>
