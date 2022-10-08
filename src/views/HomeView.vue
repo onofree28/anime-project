@@ -1,18 +1,47 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <main>
+    <Banner/>
+    <div class="home">
+      <h1 class="titulo" id="titulo">Mais Populares</h1>
+      <a href="">Ver todos</a>
+    </div>
+    <div>
+      <Animes/>
+    </div>
+  </main>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Animes from '@/components/Animes.vue';
+import Banner from '@/components/Banner.vue';
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
-  }
+    Animes,
+    Banner
+}
 }
 </script>
+<style>
+  .home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+    background-color: #050505;
+  }
+
+  .home a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #616161;
+    font-weight: bold;
+  }
+
+  .home a:hover {
+    color: aliceblue;
+    transition: 0.5s;
+  }
+
+</style>
