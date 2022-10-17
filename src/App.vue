@@ -27,4 +27,5 @@ import Footer from "./components/Footer.vue";
   background-color: #050505;
   font-family: 'Poppins', sans-serif;
 }
+
 </style>

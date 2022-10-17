@@ -7,9 +7,15 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bootstrap": "^5.2.2",
+    "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
+    "swiper": "^8.4.4",
     "vue": "^3.2.13",
-    "vue-router": "^4.0.3"
+    "vue-agile": "^2.0.0",
+    "vue-router": "^4.0.3",
+    "vue-snap": "^1.0.0-alpha.5",
+    "vue3-carousel": "^0.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",

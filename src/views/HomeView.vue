@@ -6,18 +6,18 @@
       <a href="">Ver todos</a>
     </div>
     <div>
-      <Animes/>
+      <CarouselAnimes/>
     </div>
   </main>
 </template>
 
 <script>
-import Animes from '@/components/Animes.vue';
+import CarouselAnimes from '@/components/CarouselAnimes.vue';
 import Banner from '@/components/Banner.vue';
 export default {
   name: 'HomeView',
   components: {
-    Animes,
+    CarouselAnimes,
     Banner
 }
 }
@@ -27,9 +27,10 @@ export default {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
+    padding: 20px 0;
     color: aliceblue;
     background-color: #050505;
+    border-bottom: solid 5px #ff7a00;
   }
 
   .home a {
