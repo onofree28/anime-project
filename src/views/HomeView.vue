@@ -2,7 +2,7 @@
   <main>
     <Banner/>
     <div class="home">
-      <h1 class="titulo" id="titulo">Mais Populares</h1>
+      <p class="titulo" id="titulo">Mais Populares</p>
       <a href="">Ver todos</a>
     </div>
     <div>
@@ -33,8 +33,12 @@ export default {
     border-bottom: solid 5px #ff7a00;
   }
 
+  .home p {
+    font-size: 28px;
+  }
+
   .home a {
-    font-size: 16px;
+    font-size: 14px;
     text-decoration: none;
     color: #616161;
     font-weight: bold;
@@ -44,5 +48,17 @@ export default {
     color: aliceblue;
     transition: 0.5s;
   }
+
+  @media (min-width: 300px) and (max-width: 500px) {
+   .home p {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+    .home p {
+        font-size: 28px;
+    }
+}
 
 </style>

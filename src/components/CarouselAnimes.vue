@@ -1,16 +1,22 @@
 <template>
-    <carousel class="container-animes"  :items-to-show="5" :wrap-around="true" :breakpoints="breakpoints">
-        <slide v-for="anime in animes" :key="anime.id">
-          <div class="carousel__item anime">
-            <img :src="anime.img" :alt="anime.alt">
-                <p>{{ anime.nome }}</p>
-                <p class="serie">{{ anime.tipo }}</p>
-          </div>
-        </slide>
-     <template #addons>
-        <Navigation />
-     </template>
-    </carousel>
+    <div class="vue-carousel">
+        <carousel :items-to-show="5" :breakpoints="breakpoints">
+            <slide v-for="anime in animes" :key="anime.id">
+                <div class="container-animes">
+                    <div class="anime">
+                        <router-link :to="anime.link">
+                            <img :src="anime.img" :alt="anime.alt">
+                        </router-link>
+                        <p class="nome">{{ anime.nome }}</p>
+                        <p class="serie">{{ anime.tipo }}</p>
+                    </div>
+                </div> 
+            </slide>
+         <template #addons>
+            <Navigation />
+         </template>
+        </carousel>
+    </div>
 </template>
 
 <script>
@@ -33,60 +39,72 @@
                         img: '/img/demon-slayer.jpg',
                         alt: 'Demon Slayer',
                         nome: 'Demon Slayer',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:2,
                         img: '/img/dragonball-super.jpg',
                         alt: 'Dragon Ball Super',
                         nome: 'Dragon Ball Super',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:3,
                         img: '/img/one-piece.jpg',
                         alt: 'One Piece',
                         nome: 'One Piece',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:4,
                         img: '/img/my-hero-academia.jpg',
                         alt: 'My Hero Academia',
                         nome: 'My Hero Academia',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:5,
                         img: '/img/ao-ashi.jpg',
                         alt: 'AoAshi',
                         nome: 'AoAshi',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:6,
                         img: '/img/bleach.jpg',
                         alt: 'Bleach',
                         nome: 'Bleach',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:7,
                         img: '/img/blue-lock.jpg',
                         alt: 'Blue Lock',
                         nome: 'Blue Lock',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                     {
                         id:8,
                         img: '/img/spy-family.jpg',
                         alt: 'Spy X Family',
                         nome: 'Spy X Family',
-                        tipo: 'Série'
+                        tipo: 'Série',
+                        link: '/demon-slayer'
                     },
                 ],
                 breakpoints: {
                     // 700px and up
+                    300: {
+                        itemsToShow: 1,
+                        snapAlign: 'center',
+                    },
                     700: {
                         itemsToShow: 3,
                         snapAlign: 'center',
@@ -103,24 +121,62 @@
 </script>
 
 <style>
+    .vue-carousel {
+        padding: 0 250px 0 250px;
+    }
+
     .container-animes {
         color: aliceblue;
         background-color: #050505;
         display: flex;
         justify-content: center;
         align-content: center;
-        padding: 2rem 0;
+        text-align: left;
     }
-    
 
-    .anime,
-    .carousel__item {
+    .anime {
         padding: 2rem;
     }
 
+    .nome {
+        font-size: 14px;
+    }
+    
     .serie {
-        font-size: 16px;
+        font-size: 14px;
         color: #ff7a00;
+    }
+
+    .carousel__prev,
+    .carousel__next {
+        color: #ff7a00;
+        background-color: #616161;
+        border-radius: 50px;
+    }
+    .carousel__prev:hover,
+    .carousel__next:hover {
+        color: #616161;
+        background-color: #61616159;
+        border-radius: 50px;
+        transition: 0.5s;
+    }
+
+    @media (min-width: 300px) and (max-width: 500px) {
+        .vue-carousel {
+            padding: 0;
+        }
+    }
+
+    @media (min-width: 501px) and (max-width: 1200px) {
+        .vue-carousel {
+            padding: 0;
+        }
+    }
+
+    @media (min-width: 1201px) and (max-width: 1650px) {
+        .vue-carousel {
+            padding: 0 50px;
+        }
     }
 
 </style>

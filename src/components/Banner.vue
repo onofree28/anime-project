@@ -72,25 +72,18 @@ export default defineComponent({
         width: 100%;
     }
 
-    .carousel__pagination-button {
-        color: #e62a2a;
-    }
-    .carousel__pagination-button--active {
-        color: #e62ab7;
-    }
-
     @media (min-width: 300px) and (max-width: 500px) {
-        .carousel__item img {
-            width: 300px;
-            height: 169px;
-        }
+            #main-banner img {
+                width: 300px;
+                height: 169px;
+            }
     }
 
     @media (min-width: 501px) and (max-width: 1000px) {
-        .carousel__item img {
-            width: 500px;
-            height: 282px;
-        }
+            #main-banner img {
+                width: 500px;
+                height: 282px;
+            }
     }
 
 </style>
