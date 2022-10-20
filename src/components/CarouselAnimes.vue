@@ -48,7 +48,7 @@
                         alt: 'Dragon Ball Super',
                         nome: 'Dragon Ball Super',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/dragonball-super'
                     },
                     {
                         id:3,
@@ -56,7 +56,7 @@
                         alt: 'One Piece',
                         nome: 'One Piece',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/one-piece'
                     },
                     {
                         id:4,
@@ -64,7 +64,7 @@
                         alt: 'My Hero Academia',
                         nome: 'My Hero Academia',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/my-hero-academia'
                     },
                     {
                         id:5,
@@ -72,7 +72,7 @@
                         alt: 'AoAshi',
                         nome: 'AoAshi',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/ao-ashi'
                     },
                     {
                         id:6,
@@ -80,7 +80,7 @@
                         alt: 'Bleach',
                         nome: 'Bleach',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/bleach'
                     },
                     {
                         id:7,
@@ -88,7 +88,7 @@
                         alt: 'Blue Lock',
                         nome: 'Blue Lock',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/blue-lock'
                     },
                     {
                         id:8,
@@ -96,13 +96,13 @@
                         alt: 'Spy X Family',
                         nome: 'Spy X Family',
                         tipo: 'Série',
-                        link: '/demon-slayer'
+                        link: '/spy-family'
                     },
                 ],
                 breakpoints: {
                     // 700px and up
                     300: {
-                        itemsToShow: 1,
+                        itemsToShow: 2.5,
                         snapAlign: 'center',
                     },
                     700: {

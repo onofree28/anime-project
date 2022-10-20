@@ -19,6 +19,41 @@ const routes = [
     path: '/demon-slayer',
     name: 'demon-slayer',
     component: () => import('../views/Animes/DemonSlayer.vue')
+  },
+  {
+    path: '/dragonball-super',
+    name: 'dragonball-super',
+    component: () => import('../views/Animes/DragonballSuper.vue')
+  },
+  {
+    path: '/one-piece',
+    name: 'one-piece',
+    component: () => import('../views/Animes/OnePiece.vue')
+  },
+  {
+    path: '/my-hero-academia',
+    name: 'my-hero-academia',
+    component: () => import('../views/Animes/MyHeroAcademia.vue')
+  },
+  {
+    path: '/ao-ashi',
+    name: 'ao-ashi',
+    component: () => import('../views/Animes/AoAshi.vue')
+  },
+  {
+    path: '/bleach',
+    name: 'bleach',
+    component: () => import('../views/Animes/Bleach.vue')
+  },
+  {
+    path: '/blue-lock',
+    name: 'blue-lock',
+    component: () => import('../views/Animes/BlueLock.vue')
+  },
+  {
+    path: '/spy-family',
+    name: 'spy-family',
+    component: () => import('../views/Animes/SpyFamily.vue')
   }
 ]
 
