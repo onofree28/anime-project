@@ -8,7 +8,8 @@
                 <h1>Demon Slayer: Kimetsu no Yaiba</h1>
             </div>
             <div class="info">
-                <p>{{ sinopse }}</p>
+                <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
+                <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
             </div>
         </div>
 
@@ -20,11 +21,22 @@
         name: 'DemonSlayer',
         data() {
             return {
-                sinopse: 'Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.'
-                    
-                
+                mostrar_texto: false,
+                textoBotao: 'Ver mais',
+                sinopseA: 'Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide',
+                sinopseB: ' se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.'  
             }
-        }
+        },
+        methods: {
+            verMais() {
+                this.mostrar_texto = !this.mostrar_texto
+                if(!this.mostrar_texto) {
+                    this.textoBotao = 'Ver mais'
+                } else {
+                    this.textoBotao = 'Ver menos'
+                }
+            }
+        },
     }
 </script>
 
@@ -48,6 +60,19 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .btn-ver {
+        font-size: 16px;
+        cursor: pointer;
+        color: aliceblue;
+        border: none;
+        background: none;
+    }
+    .btn-ver:hover {
+        color: #2b2b2b;
+        transition: 0.5s;
+        padding: 2px;
     }
 
     @media (min-width: 300px) and (max-width: 500px) {
