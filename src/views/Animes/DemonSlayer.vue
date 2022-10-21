@@ -1,18 +1,22 @@
 <template>
-    <div class="container">
+    <div class="container-banner">
         <div class="banner">
             <img src="/banner-pagina/demon-slayer-banner-pagina.jpg" alt="demon-slayer-banner">
         </div>
-        <div class="container-info">
-            <div class="titulo">
-                <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+        <div class="container">
+            <div class="container-info">
+                <div class="titulo">
+                    <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+                </div>
+                <div class="info">
+                    <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
+                    <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
+                </div>
             </div>
-            <div class="info">
-                <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
-                <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
+            <div class="trailer">
+                <iframe class="video" width="480" height="235" src="https://www.youtube.com/embed/tJxCxCWksOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-
     </div>
 </template>
 
@@ -49,10 +53,21 @@
         background-color: #2b2b2b;
     }
 
+    .banner img {
+        width: 849px;
+        height: 479px;
+    }
     .info, .titulo {
         color: aliceblue;
         width: 600px;
         padding-top: 2rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .container-info {
@@ -60,6 +75,10 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+
+    .video {
+        padding: 2rem;
     }
 
     .btn-ver {
@@ -89,6 +108,10 @@
         }
         .info {
             font-size: 14px;
+        }
+        .video {
+            width: 420px;
+            height: 195px;
         }
     }
 

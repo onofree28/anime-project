@@ -1,6 +1,6 @@
 <template>
     <div class="vue-carousel">
-        <carousel :items-to-show="5" :breakpoints="breakpoints">
+        <carousel :items-to-show="5" :breakpoints="breakpoints" :wrap-around="true">
             <slide v-for="anime in animes" :key="anime.id">
                 <div class="container-animes">
                     <div class="anime">
@@ -122,7 +122,7 @@
 
 <style>
     .vue-carousel {
-        padding: 0 250px 0 250px;
+        padding: 0 350px 0 350px;
     }
 
     .container-animes {
