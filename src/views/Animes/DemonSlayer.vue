@@ -1,12 +1,12 @@
 <template>
     <div class="container-banner">
         <div class="banner">
-            <img src="/banner-pagina/demon-slayer-banner-pagina.jpg" alt="demon-slayer-banner">
+            <img :src="banner" :alt="alt">
         </div>
         <div class="container">
             <div class="container-info">
                 <div class="titulo">
-                    <h1>Demon Slayer: Kimetsu no Yaiba</h1>
+                    <h1>{{ titulo }}</h1>
                 </div>
                 <div class="info">
                     <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
@@ -28,7 +28,10 @@
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
                 sinopseA: 'Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, descobre que sua família foi massacrada por um demônio. E pra piorar, Nezuko, sua irmã mais nova e única sobrevivente, também foi transformada num demônio. Arrasado com esta sombria realidade, Tanjiro decide',
-                sinopseB: ' se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.'  
+                sinopseB: ' se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.',
+                banner: '/banner-pagina/demon-slayer-banner-pagina.jpeg',
+                alt: 'demon-slayer-banner',
+                titulo: 'Demon Slayer: Kimetsu no Yaiba'
             }
         },
         methods: {
