@@ -2,7 +2,9 @@
     <carousel :autoplay="5000" :wrap-around="true">
         <slide id="main-banner" v-for="banner in banners" :key="banner.id">
             <div class="carousel__item">
-                <img :src="banner.img" :alt="banner.alt">
+                <router-link :to="banner.link">
+                    <img :src="banner.img" :alt="banner.alt">
+                </router-link>
             </div>
         </slide>
     
@@ -31,27 +33,32 @@ export default defineComponent({
                 {
                     id:1,
                     img: '/img/blue-lock-banner.webp',
-                    alt: 'blue-lock-banner'
+                    alt: 'blue-lock-banner',
+                    link: '/blue-lock'
                 },
                 {
                     id:2,
                     img: '/img/dragonballz-banner.webp',
-                    alt: 'dragonballz-banner'
+                    alt: 'dragonballz-banner',
+                    link: '/dragonball-super'
                 },
                 {
                     id:3,
                     img: '/img/my-hero-banner.webp',
-                    alt: 'my-hero-banner'
+                    alt: 'my-hero-banner',
+                    link: '/my-hero-academia'
                 },
                 {
                     id:4,
                     img: '/img/spy-family-banner.webp',
-                    alt: 'spy-family-banner'
+                    alt: 'spy-family-banner',
+                    link: '/spy-family'
                 },
                 {
                     id: 5,
                     img: '/img/banner.gif',
-                    alt: 'banner'
+                    alt: 'banner',
+                    link: '/'
                 }
             ],
         }

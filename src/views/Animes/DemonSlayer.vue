@@ -12,6 +12,7 @@
                     <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
                     <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
                 </div>
+                <a class="btn-assista" :href="link">Assista aqui</a>
             </div>
             <div class="trailer">
                 <iframe class="video" width="480" height="235" src="https://www.youtube.com/embed/tJxCxCWksOY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -31,7 +32,8 @@
                 sinopseB: ' se tornar um matador de demônios para fazer sua irmã voltar a ser humana, e para matar o demônio que matou sua família. Um triste conto sobre dois irmãos, onde os destinos dos humanos e dos demônios se entrelaçam, começa agora.',
                 banner: '/banner-pagina/demon-slayer-banner-pagina.jpeg',
                 alt: 'demon-slayer-banner',
-                titulo: 'Demon Slayer: Kimetsu no Yaiba'
+                titulo: 'Demon Slayer: Kimetsu no Yaiba',
+                link: 'https://www.crunchyroll.com/pt-br/series/GY5P48XEY/demon-slayer-kimetsu-no-yaiba'
             }
         },
         methods: {
@@ -73,6 +75,12 @@
         flex-wrap: wrap;
     }
 
+    .container ::selection,
+    .container-banner ::selection {
+        background-color: #2b2b2b;
+        color: #ff7a00;
+    }
+
     .container-info {
         display: flex;
         justify-content: center;
@@ -95,6 +103,22 @@
         color: #2b2b2b;
         transition: 0.5s;
         padding: 2px;
+    }
+
+    .btn-assista {
+        text-decoration: none;
+        border: solid 2px #ff7a00;
+        background-color: #ff7a00;
+        padding: 8px 15px;
+        margin: 15px 0 15px 0;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+    .btn-assista:hover {
+        background-color: #050505;
+        color: #ff7a00;
+        transition: 0.5s;
     }
 
     @media (min-width: 300px) and (max-width: 500px) {

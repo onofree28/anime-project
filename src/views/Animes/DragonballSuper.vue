@@ -12,6 +12,7 @@
                     <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
                     <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
                 </div>
+                <a class="btn-assista" :href="link">Assista aqui</a>
             </div>
             <div class="trailer">
                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/cK9WMwFRGWs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -22,7 +23,7 @@
 
 <script>
     export default {
-        name: 'DemonSlayer',
+        name: 'DragonballSuper',
         data() {
             return {
                 mostrar_texto: false,
@@ -31,7 +32,8 @@
                 sinopseB: ' Beerus, o poderoso Deus da Destruição, recebe uma profecia de que encontrará seu fim nas mãos de um ser ainda mais poderoso, e sua busca pelo Deus dos Saiya-jins o traz para a Terra. Será que Goku e seus amigos conseguirão derrotar seu mais poderoso inimigo até então?',
                 banner: '/banner-pagina/dragonball-super-banner.jpeg',
                 alt: 'dragonball-super-banner',
-                titulo: 'Dragon Ball Super'
+                titulo: 'Dragon Ball Super',
+                link: 'https://www.crunchyroll.com/pt-br/series/GR19V7816/dragon-ball-super'
             }
         },
         methods: {
@@ -73,6 +75,12 @@
         flex-wrap: wrap;
     }
 
+    .container ::selection,
+    .container-banner ::selection {
+        background-color: #2b2b2b;
+        color: #ff7a00;
+    }
+
     .container-info {
         display: flex;
         justify-content: center;
@@ -95,6 +103,21 @@
         color: #2b2b2b;
         transition: 0.5s;
         padding: 2px;
+    }
+    .btn-assista {
+        text-decoration: none;
+        border: solid 2px #ff7a00;
+        background-color: #ff7a00;
+        padding: 8px 15px;
+        margin: 15px 0 15px 0;
+        color: aliceblue;
+        font-weight: bold;
+    }
+
+    .btn-assista:hover {
+        background-color: #050505;
+        color: #ff7a00;
+        transition: 0.5s;
     }
 
     @media (min-width: 300px) and (max-width: 500px) {

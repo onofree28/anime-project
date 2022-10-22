@@ -7,7 +7,9 @@
                         <router-link :to="anime.link">
                             <img :src="anime.img" :alt="anime.alt">
                         </router-link>
-                        <p class="nome">{{ anime.nome }}</p>
+                        <router-link style="text-decoration: none;" :to="anime.link">
+                            <p class="nome">{{ anime.nome }}</p>
+                        </router-link>
                         <p class="serie">{{ anime.tipo }}</p>
                     </div>
                 </div> 
@@ -120,7 +122,7 @@
     })
 </script>
 
-<style>
+<style scoped>
     .vue-carousel {
         padding: 0 350px 0 350px;
     }
@@ -139,6 +141,7 @@
     }
 
     .nome {
+        color: aliceblue;
         font-size: 14px;
     }
     
@@ -147,19 +150,6 @@
         color: #ff7a00;
     }
 
-    .carousel__prev,
-    .carousel__next {
-        color: #ff7a00;
-        background-color: #616161;
-        border-radius: 50px;
-    }
-    .carousel__prev:hover,
-    .carousel__next:hover {
-        color: #616161;
-        background-color: #61616159;
-        border-radius: 50px;
-        transition: 0.5s;
-    }
 
     @media (min-width: 300px) and (max-width: 500px) {
         .vue-carousel {

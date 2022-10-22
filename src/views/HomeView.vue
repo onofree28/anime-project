@@ -2,7 +2,7 @@
   <main>
     <Banner/>
     <div class="home">
-      <p class="titulo" id="titulo">Mais Populares</p>
+      <p class="titulo" id="titulo">Animes</p>
       <a href="">Ver todos</a>
     </div>
     <div>
@@ -47,6 +47,25 @@ export default {
   .home a:hover {
     color: aliceblue;
     transition: 0.5s;
+  }
+
+  main ::selection {
+      background-color: #2b2b2b;
+      color: #ff7a00;
+  }
+
+  .carousel__prev,
+  .carousel__next {
+      color: #ff7a00;
+      background-color: #616161;
+      border-radius: 50px;
+  }
+  .carousel__prev:hover,
+  .carousel__next:hover {
+      color: #616161;
+      background-color: #61616159;
+      border-radius: 50px;
+      transition: 0.5s;
   }
 
   @media (min-width: 300px) and (max-width: 500px) {
