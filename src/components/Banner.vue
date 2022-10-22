@@ -66,17 +66,12 @@ export default defineComponent({
 })
 </script>
 
-<style lang="scss" >
+<style lang="scss" scoped>
     #main-banner {
-        background: cover;
         display: flex;
         justify-content: center;
         align-content: center;
         background-color: #2b2b2b;
-    }
-
-    .carousel__item {
-        width: 100%;
     }
 
     @media (min-width: 300px) and (max-width: 500px) {

@@ -23,15 +23,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
   .header {
-
     padding-bottom: 15px;
     width: auto;
     height: 100px;
     background-color: #464646;
   }
 
-  .header ::selection {
-      background-color: #2b2b2b;
-      color: #ff7a00;
-  }
 </style>

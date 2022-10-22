@@ -19,9 +19,13 @@ import Footer from "./components/Footer.vue";
 </script>
 
 <style lang="scss">
-  *{
+  * {
     margin: 0;
     padding: 0;
+  }
+  * ::selection {
+    background-color: #2b2b2b;
+    color: #ff7a00;
   }
 #app {
   background-color: #050505;

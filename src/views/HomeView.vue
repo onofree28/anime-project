@@ -1,12 +1,18 @@
 <template>
   <main>
     <Banner/>
-    <div class="home">
-      <p class="titulo" id="titulo">Animes</p>
-      <a href="">Ver todos</a>
+    <div class="container-home">
+      <div class="home">
+        <p class="titulo" id="titulo">Animes</p>
+        <a href="">Ver todos</a>
+      </div>
+      <div class="barra"></div>
     </div>
     <div>
       <CarouselAnimes/>
+    </div>
+    <div>
+      <Noticias/>
     </div>
   </main>
 </template>
@@ -14,27 +20,43 @@
 <script>
 import CarouselAnimes from '@/components/CarouselAnimes.vue';
 import Banner from '@/components/Banner.vue';
+import Noticias from '@/components/Noticias.vue';
 export default {
   name: 'HomeView',
   components: {
     CarouselAnimes,
-    Banner
+    Banner,
+    Noticias
 }
 }
 </script>
 <style>
   .home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    width: 1100px;
+    padding-top: 20px 10px 20px 10px;
     color: aliceblue;
     background-color: #050505;
-    border-bottom: solid 5px #ff7a00;
+  }
+
+  .container-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .barra {
+    height: 5px;
+    width: 1100px;
+    background-color: #ff7a00;
   }
 
   .home p {
     font-size: 28px;
+    margin-left: 0;
   }
 
   .home a {
@@ -42,18 +64,14 @@ export default {
     text-decoration: none;
     color: #616161;
     font-weight: bold;
+    margin-right: 0;
   }
 
   .home a:hover {
     color: aliceblue;
     transition: 0.5s;
   }
-
-  main ::selection {
-      background-color: #2b2b2b;
-      color: #ff7a00;
-  }
-
+ 
   .carousel__prev,
   .carousel__next {
       color: #ff7a00;
@@ -68,15 +86,22 @@ export default {
       transition: 0.5s;
   }
 
-  @media (min-width: 300px) and (max-width: 500px) {
+  @media (min-width: 300px) and (max-width: 740px) {
    .home p {
         font-size: 22px;
     }
+
+    .home, .barra {
+      width: 420px;
+    }
 }
 
-@media (min-width: 501px) and (max-width: 1000px) {
+@media (min-width: 741px) and (max-width: 1100px) {
     .home p {
         font-size: 28px;
+    }
+    .home, .barra {
+      width: 800px;
     }
 }
 

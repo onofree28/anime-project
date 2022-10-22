@@ -104,12 +104,12 @@
                 breakpoints: {
                     // 700px and up
                     300: {
-                        itemsToShow: 2.5,
-                        snapAlign: 'center',
+                        itemsToShow: 2,
+                        snapAlign: 'start',
                     },
-                    700: {
+                    600: {
                         itemsToShow: 3,
-                        snapAlign: 'center',
+                        snapAlign: 'start',
                     },
                     // 1024 and up
                     1024: {

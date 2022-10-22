@@ -9,10 +9,10 @@
                     <h1>{{ titulo }}</h1>
                 </div>
                 <div class="info">
-                    <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p>
+                    <p>{{ sinopseA }}<span v-show="mostrar_texto">{{ sinopseB }}</span></p><br>
                     <button class="btn-ver" @click="verMais">{{ textoBotao }}</button>
                 </div>
-                <a class="btn-assista" :href="link">Assista aqui</a>
+                <a class="btn-assista" :href="link">Assista aqui!</a>
             </div>
             <div class="trailer">
                 <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/0CJr6AfE2rY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -74,13 +74,6 @@
         align-items: center;
         flex-wrap: wrap;
     }
-
-    .container ::selection,
-    .container-banner ::selection {
-        background-color: #2b2b2b;
-        color: #ff7a00;
-    }
-
     .container-info {
         display: flex;
         justify-content: center;
