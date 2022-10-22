@@ -49,7 +49,7 @@ export default {
   }
 
   .barra {
-    height: 5px;
+    height: 0.5vh;
     width: 1100px;
     background-color: #ff7a00;
   }

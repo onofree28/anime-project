@@ -131,8 +131,8 @@
             font-size: 14px;
         }
         .video {
-            width: 420px;
-            height: 195px;
+            width: 300px;
+            height: 169px;
         }
     }
 
