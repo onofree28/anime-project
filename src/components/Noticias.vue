@@ -51,17 +51,17 @@
         background-color: #2b2b2b;
     }
 
-    @media (min-width: 300px) and (max-width: 740px) {
+    @media (min-width: 200px) and (max-width: 760px) {
         .titulo p {
              font-size: 22px;
          }
      
          .container-titulo, .container-noticias, .barra {
-           width: 420px;
+           width: 340px;
          }
      }
      
-     @media (min-width: 741px) and (max-width: 1100px) {
+     @media (min-width: 761px) and (max-width: 1100px) {
          .titulo p {
              font-size: 28px;
          }
