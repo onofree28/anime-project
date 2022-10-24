@@ -28,7 +28,7 @@
             return {
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
-                sinopseA: 'O jovem Ichigo, depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte. Devido a isso, ',
+                sinopseA: 'O jovem Ichigo, depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte. Devido a isso,... ',
                 sinopseB: 'ele dedica sua vida a proteger os inocentes e ajudar os espíritos torturados até que eles encontrem a paz.',
                 banner: '/banner-pagina/bleach-banner-pagina.jpeg',
                 alt: 'bleach-banner',
@@ -41,8 +41,10 @@
                 this.mostrar_texto = !this.mostrar_texto
                 if(!this.mostrar_texto) {
                     this.textoBotao = 'Ver mais'
+                    this.sinopseA = 'O jovem Ichigo, depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte. Devido a isso,... '
                 } else {
                     this.textoBotao = 'Ver menos'
+                    this.sinopseA = 'O jovem Ichigo, depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte. Devido a isso, '
                 }
             }
         },

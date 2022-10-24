@@ -28,7 +28,7 @@
             return {
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
-                sinopseA: 'Ashito Aoi é um adolescente que mora no interior do Japão e é o artilheiro de um time de várzea. Após perder a final do torneio sub-15, ele é recrutado por Tatsuya Fukuda, técnico da categoria de base do Tokyo City Esperion FC, um dos maiores times da J-League, a primeira divisão do',
+                sinopseA: 'Ashito Aoi é um adolescente que mora no interior do Japão e é o artilheiro de um time de várzea. Após perder a final do torneio sub-15, ele é recrutado por Tatsuya Fukuda, técnico da categoria de base do Tokyo City Esperion FC, um dos maiores times da J-League, a primeira divisão do...',
                 sinopseB: ' campeonato japonês. Tatsuya quer transformar o Esperion em um time de calibre mundial, e encontra em Ashito um talento a ser refinado e desenvolvido. Ao ouvir isso, Ashito aceita a oferta e decide se candidatar para a peneira. Perda, amadurecimento e amizade não faltam nesta obra cheia de espírito juvenil!',
                 banner: '/banner-pagina/ao-ashi-banner-pagina.jpeg',
                 alt: 'ao-ashi-banner',
@@ -41,8 +41,10 @@
                 this.mostrar_texto = !this.mostrar_texto
                 if(!this.mostrar_texto) {
                     this.textoBotao = 'Ver mais'
+                    this.sinopseA = 'Ashito Aoi é um adolescente que mora no interior do Japão e é o artilheiro de um time de várzea. Após perder a final do torneio sub-15, ele é recrutado por Tatsuya Fukuda, técnico da categoria de base do Tokyo City Esperion FC, um dos maiores times da J-League, a primeira divisão do...'
                 } else {
                     this.textoBotao = 'Ver menos'
+                    this.sinopseA = 'Ashito Aoi é um adolescente que mora no interior do Japão e é o artilheiro de um time de várzea. Após perder a final do torneio sub-15, ele é recrutado por Tatsuya Fukuda, técnico da categoria de base do Tokyo City Esperion FC, um dos maiores times da J-League, a primeira divisão do'
                 }
             }
         },

@@ -28,7 +28,7 @@
             return {
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
-                sinopseA: '18 anos depois, temos uma nova saga de Dragon Ball das mãos de seu criador, Akira Toriyama. Após a derrota de Majin Buu, Goku arranja um novo emprego como... fazendeiro de nabos? Agora que a Terra está em paz, nosso heróis levam vidas mundanas, mas não por muito tempo. Longe dali,',
+                sinopseA: '18 anos depois, temos uma nova saga de Dragon Ball das mãos de seu criador, Akira Toriyama. Após a derrota de Majin Buu, Goku arranja um novo emprego como... fazendeiro de nabos? Agora que a Terra está em paz, nosso heróis levam vidas mundanas, mas não por muito tempo. Longe dali,...',
                 sinopseB: ' Beerus, o poderoso Deus da Destruição, recebe uma profecia de que encontrará seu fim nas mãos de um ser ainda mais poderoso, e sua busca pelo Deus dos Saiya-jins o traz para a Terra. Será que Goku e seus amigos conseguirão derrotar seu mais poderoso inimigo até então?',
                 banner: '/banner-pagina/dragonball-super-banner.jpeg',
                 alt: 'dragonball-super-banner',
@@ -41,8 +41,10 @@
                 this.mostrar_texto = !this.mostrar_texto
                 if(!this.mostrar_texto) {
                     this.textoBotao = 'Ver mais'
+                    thius.sinopseA = '18 anos depois, temos uma nova saga de Dragon Ball das mãos de seu criador, Akira Toriyama. Após a derrota de Majin Buu, Goku arranja um novo emprego como... fazendeiro de nabos? Agora que a Terra está em paz, nosso heróis levam vidas mundanas, mas não por muito tempo. Longe dali,...'
                 } else {
                     this.textoBotao = 'Ver menos'
+                    this.sinopseA = '18 anos depois, temos uma nova saga de Dragon Ball das mãos de seu criador, Akira Toriyama. Após a derrota de Majin Buu, Goku arranja um novo emprego como... fazendeiro de nabos? Agora que a Terra está em paz, nosso heróis levam vidas mundanas, mas não por muito tempo. Longe dali,'
                 }
             }
         },

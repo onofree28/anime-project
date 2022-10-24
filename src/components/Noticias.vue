@@ -7,9 +7,13 @@
         <div class="container-noticias">
             <div class="container-destaque">
                 <p>Noticias em destaque</p>
-                <div class="destaque" v-for="destaque in destaques" :key="destaque.id">
-                    <img :src="destaque.img" :alt="destaque.alt">
-                    <p>{{ destaque.titulo }}</p>
+                <div v-for="destaque in destaques" :key="destaque.id">
+                    <div class="destaque">
+                        <router-link :to="destaque.link">
+                            <img :src="destaque.img" :alt="destaque.alt">
+                        </router-link> 
+                        <p>{{ destaque.titulo }}</p>
+                    </div>
                 </div>
             </div>
             <div class="container-recentes">
@@ -33,13 +37,15 @@
                         id:1,
                         titulo: 'Calendário de Lançamentos',
                         img: '/img-noticias/destaque1-noticia.png',
-                        alt: 'destaque-1-imagem'
+                        alt: 'destaque-1-imagem',
+                        link: '/calendario'
                     },
                     {
                         id:2,
                         titulo: 'Conheça o elenco brasileiro e a data de estreia da dublagem de Chainsaw Man',
                         img: '/img-noticias/destaque2-noticia.jpg',
-                        alt: 'destaque-2-imagem'
+                        alt: 'destaque-2-imagem',
+                        link: '/calendario'
                     }
                 ],
 

@@ -54,7 +54,12 @@ const routes = [
     path: '/spy-family',
     name: 'spy-family',
     component: () => import('../views/Animes/SpyFamily.vue')
-  }
+  },
+  {
+    path: '/calendario',
+    name: 'calendario',
+    component: () => import('../views/Noticias/CalendarioLan.vue')
+  },
 ]
 
 const router = createRouter({

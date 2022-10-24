@@ -28,7 +28,7 @@
             return {
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
-                sinopseA: 'Por toda a sua vida, Izuku sonhou ser um heroi — um objetivo ambicioso para qualquer um, mas especialmente desafiador para um garoto sem superpoderes. Isso mesmo: em um mundo onde 80% da população tem algum tipo de Dom especial, Izuku teve a má sorte de nascer',
+                sinopseA: 'Por toda a sua vida, Izuku sonhou ser um heroi — um objetivo ambicioso para qualquer um, mas especialmente desafiador para um garoto sem superpoderes. Isso mesmo: em um mundo onde 80% da população tem algum tipo de Dom especial, Izuku teve a má sorte de nascer...',
                 sinopseB: ' completamente normal. Mas isso não vai impedi-lo de se matricular em uma das academias de herois mais prestigiosas do mundo.',
                 banner: '/banner-pagina/my-hero-banner-pagina.jpeg',
                 alt: 'my-hero-banner',
@@ -41,8 +41,10 @@
                 this.mostrar_texto = !this.mostrar_texto
                 if(!this.mostrar_texto) {
                     this.textoBotao = 'Ver mais'
+                    this.sinopseA = 'Por toda a sua vida, Izuku sonhou ser um heroi — um objetivo ambicioso para qualquer um, mas especialmente desafiador para um garoto sem superpoderes. Isso mesmo: em um mundo onde 80% da população tem algum tipo de Dom especial, Izuku teve a má sorte de nascer...'
                 } else {
                     this.textoBotao = 'Ver menos'
+                    this.sinopseA = 'Por toda a sua vida, Izuku sonhou ser um heroi — um objetivo ambicioso para qualquer um, mas especialmente desafiador para um garoto sem superpoderes. Isso mesmo: em um mundo onde 80% da população tem algum tipo de Dom especial, Izuku teve a má sorte de nascer'
                 }
             }
         },

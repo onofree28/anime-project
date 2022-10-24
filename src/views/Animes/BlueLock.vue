@@ -28,7 +28,7 @@
             return {
                 mostrar_texto: false,
                 textoBotao: 'Ver mais',
-                sinopseA: 'Depois de refletir sobre o estado atual do futebol japonês, a Associação Japonesa de Futebol decide contratar o enigmático e excêntrico treinador Jinpachi Ego para realizar seu sonho de vencer a Copa do Mundo. Acreditando que o Japão não tem um atacante egoísta com fome de gols, Jinpachi inicia o Blue Lock – uma instalação semelhante',
+                sinopseA: 'Depois de refletir sobre o estado atual do futebol japonês, a Associação Japonesa de Futebol decide contratar o enigmático e excêntrico treinador Jinpachi Ego para realizar seu sonho de vencer a Copa do Mundo. Acreditando que o Japão não tem um atacante egoísta com fome de gols, Jinpachi inicia o Blue Lock – uma instalação semelhante...',
                 sinopseB: ' a uma prisão onde trezentos atacantes talentosos de escolas de ensino médio de todo o Japão estão isolados e colocados uns contra os outros. O único sobrevivente do Blue Lock ganhará o direito de se tornar o atacante da equipe nacional, e aqueles que forem derrotados serão proibidos de se juntar à equipe para sempre.',
                 banner: '/banner-pagina/blue-lock-banner-pagina.jpeg',
                 alt: 'blue-lock-banner',
@@ -41,8 +41,10 @@
                 this.mostrar_texto = !this.mostrar_texto
                 if(!this.mostrar_texto) {
                     this.textoBotao = 'Ver mais'
+                    this.sinopseA = 'Depois de refletir sobre o estado atual do futebol japonês, a Associação Japonesa de Futebol decide contratar o enigmático e excêntrico treinador Jinpachi Ego para realizar seu sonho de vencer a Copa do Mundo. Acreditando que o Japão não tem um atacante egoísta com fome de gols, Jinpachi inicia o Blue Lock – uma instalação semelhante...'
                 } else {
                     this.textoBotao = 'Ver menos'
+                    this.sinopseA = 'Depois de refletir sobre o estado atual do futebol japonês, a Associação Japonesa de Futebol decide contratar o enigmático e excêntrico treinador Jinpachi Ego para realizar seu sonho de vencer a Copa do Mundo. Acreditando que o Japão não tem um atacante egoísta com fome de gols, Jinpachi inicia o Blue Lock – uma instalação semelhante'
                 }
             }
         },
