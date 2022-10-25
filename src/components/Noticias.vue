@@ -6,8 +6,8 @@
         <div class="barra"></div>
         <div class="container-noticias">
             <div class="container-destaque">
-                <p>Noticias em destaque</p>
-                <div v-for="destaque in destaques" :key="destaque.id">
+                <p class="indice">Noticias em destaque</p>
+                <div class="categoria" v-for="destaque in destaques" :key="destaque.id">
                     <div class="destaque">
                         <router-link :to="destaque.link">
                             <img :src="destaque.img" :alt="destaque.alt">
@@ -112,6 +112,7 @@
     .titulo {
         color: aliceblue;
         font-size: 28px;
+        padding-left: 10px;
     }
 
     .barra {
@@ -138,13 +139,23 @@
         flex-direction: column;
         width: 240px;
         height: 555px;
-        padding: 10px 10px 0 0;
+        padding: 10px 10px;
         color: aliceblue;
         font-size: 16px;
     }
 
+    .categoria :hover {
+        background-color: #616161;
+        transition: 0.5s;
+    }
+
+    .indice {
+        padding: 4px 10px;
+        font-size: 20px;
+    }
+
     .destaque {
-        padding-top: 40px;
+        padding: 30px 10px;
         width: 250px;
     }
     .destaque img {
@@ -167,7 +178,7 @@
 
     .recentes-titulo {
         padding: 0 0 10px 5px;
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .noticias {

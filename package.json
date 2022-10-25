@@ -18,6 +18,7 @@
     "swiper": "^8.4.4",
     "vue": "^3.2.13",
     "vue-agile": "^2.0.0",
+    "vue-flag-icon": "^2.1.0",
     "vue-router": "^4.0.3",
     "vue-snap": "^1.0.0-alpha.5",
     "vue3-carousel": "^0.2.0"

@@ -11,8 +11,11 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
+import FlagIcon from 'vue-flag-icon'
+
 library.add(fas)
 createApp(App).use(router).component('fa', FontAwesomeIcon).mount('#app')
+Vue.use(FlagIcon);
 
 
 myApp.use(VueSnap)

@@ -134,10 +134,16 @@
         justify-content: center;
         align-content: center;
         text-align: left;
+        padding: 2rem;
     }
 
     .anime {
-        padding: 2rem;
+        padding: 8px;
+    }
+
+    .container-animes :hover {
+        background-color: #616161;
+        transition: 0.5s;
     }
 
     .nome {
