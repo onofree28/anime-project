@@ -20,6 +20,7 @@ import Footer from "./components/Footer.vue";
 
 <style lang="scss">
   * {
+    width: auto;
     margin: 0;
     padding: 0;
   }

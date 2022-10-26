@@ -487,6 +487,10 @@
             height: 380px;
         }
 
+        .descricao-capa {
+            width: 139px;
+        }
+
         .capas img {
             width: 139px;
             height: 210px;
@@ -533,6 +537,7 @@
             width: 180px;
             height: 420px;
         }
+
 
         .capas img {
             width: 180px;
