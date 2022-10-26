@@ -21,6 +21,7 @@
     "vue-agile": "^2.0.0",
     "vue-country-flag": "^2.3.2",
     "vue-country-flag-next": "^2.3.2",
+    "vue-fixed-header": "^3.2.15",
     "vue-flag-icon": "^2.1.0",
     "vue-flagpack": "^1.0.1",
     "vue-router": "^4.0.3",

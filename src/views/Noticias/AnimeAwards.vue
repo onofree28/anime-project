@@ -455,7 +455,7 @@
         font-size: 14px;
     }
 
-    @media (min-width: 200px) and (max-width: 800px) {
+    @media (min-width: 200px) and (max-width: 760px) {
         .noticia, .divisoria {
             width: 340px;
         }
@@ -502,51 +502,13 @@
         }
      }
      
-     @media (min-width: 800px) and (max-width: 1100px) {
-        .noticia, .divisoria {
-            width: 800;
-        }
-
-        .calendario {
-            padding: 2px;
-        }
-
-        .banner img {
-            height: 300px;
-            width: 500px;
-        }
-
-        .icone img {
-            height: 150px;
-            width: 150px;
-        }
-
-        .container-calendario h1 {
-            font-size: 28px;
-        }
-
-        .titulo-principal {
-            font-size: 24px;
-        }
-
-        .capas {
-            width: 180px;
-            height: 420px;
-        }
-
-        .capas img {
-            width: 180px;
-            height: 260px;
-        }
-
-        .nome {
-            font-size: 13px;
-            width: 139px;
-        }
-
-        .episodios, .descricao-capa p {
-            font-size: 12px;
-        }
+     @media (min-width: 761px) and (max-width: 1100px) {
+         .titulo p {
+             font-size: 28px;
+         }
+         .container-titulo, .container-noticias, .barra {
+           width: 800px;
+         }
      }
 
 </style>

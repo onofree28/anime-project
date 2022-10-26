@@ -42,8 +42,8 @@
                     },
                     {
                         id:2,
-                        titulo: 'Conheça o elenco brasileiro e a data de estreia da dublagem de Chainsaw Man',
-                        img: '/img-noticias/destaque2-noticia.jpg',
+                        titulo: 'Sally Amaki e Jon Kabira serão os apresentadores do Anime Awards 2023',
+                        img: '/img-noticias/anime-awards-noticia.jpg',
                         alt: 'destaque-2-imagem',
                         link: '/calendario'
                     }
