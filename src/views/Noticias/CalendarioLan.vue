@@ -15,7 +15,9 @@
                 </div>
             </div>
             <div class="descricao">
-                <p>{{ descricao }}</p>
+                <p>Está curioso para saber o que chega nesta semana na <a :href="link" class="crunchy">Crunchyroll</a>? 
+                    Então não precisa mais se preocupar! Basta conferir nosso calendário de lançamentos da semana a partir de agora, que 
+                    vai ser atualizado toda segunda-feira com todos os lançamentos que estão chegando na semana!</p>
             </div>
             <div class="principal">
                 <h1 class="titulo-principal">CALENDÁRIO DE LANÇAMENTOS
@@ -133,7 +135,6 @@
                 alt: 'banner-noticia',
                 img: '/img-noticias/destaque1-noticia.png',
                 alt2: 'icone-noticia',
-                descricao: `Está curioso para saber o que chega nesta semana na Crunchyroll? Então não precisa mais se preocupar! Basta conferir nosso calendário de lançamentos da semana a partir de agora, que vai ser atualizado toda segunda-feira com todos os lançamentos que estão chegando na semana!`,
                 link: 'https://www.crunchyroll.com/pt-br',
 
                 segunda: [
@@ -392,8 +393,14 @@
     }
 
     .descricao {
-        font-size: 13px;
+        font-size: 14px;
         padding: 10px;
+    }
+
+    .crunchy {
+        color: #ff7a00;
+        font-weight: bold;
+        text-decoration: none;
     }
 
     .principal {
@@ -455,7 +462,7 @@
         font-size: 14px;
     }
 
-    @media (min-width: 200px) and (max-width: 800px) {
+    @media (min-width: 200px) and (max-width: 910px) {
         .noticia, .divisoria {
             width: 340px;
         }
@@ -506,7 +513,7 @@
         }
      }
      
-     @media (min-width: 800px) and (max-width: 1100px) {
+     @media (min-width: 910px) and (max-width: 1400px) {
         .noticia, .divisoria {
             width: 800;
         }

@@ -60,6 +60,11 @@ const routes = [
     name: 'calendario',
     component: () => import('../views/Noticias/CalendarioLan.vue')
   },
+  {
+    path: '/anime-awards',
+    name: 'anime-awards',
+    component: () => import('../views/Noticias/AnimeAwards.vue')
+  },
 ]
 
 const router = createRouter({

@@ -45,7 +45,7 @@
                         titulo: 'Sally Amaki e Jon Kabira serão os apresentadores do Anime Awards 2023',
                         img: '/img-noticias/anime-awards-noticia.jpg',
                         alt: 'destaque-2-imagem',
-                        link: '/calendario'
+                        link: '/anime-awards'
                     }
                 ],
 
