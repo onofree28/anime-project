@@ -9,7 +9,7 @@
                 <p class="indice">Noticias em destaque</p>
                 <div class="categoria" v-for="destaque in destaques" :key="destaque.id">
                     <div class="destaque">
-                        <router-link :to="destaque.link">
+                        <router-link @click.native="scrollToTop()" :to="destaque.link">
                             <img :src="destaque.img" :alt="destaque.alt">
                         </router-link> 
                         <p>{{ destaque.titulo }}</p>
@@ -88,6 +88,11 @@
                     },
 
                 ]
+            }
+        },
+        methods: {
+            scrollToTop() {
+                window.scrollTo(0,0)
             }
         }
     }
