@@ -118,6 +118,13 @@
         align-items: center;
     }
 
+    .img-pessoa img {
+        border: #2b2b2b solid 2px;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+    }
+
     .falando {
         font-style: italic;
     }
@@ -127,45 +134,22 @@
             width: 340px;
         }
 
-        .calendario {
-            padding: 2px;
+        .banner {
+            padding-left: 12px;
         }
 
         .banner img {
-            height: 140px;
-            width: 220px;
+            height: 180px;
+            width: 300px;
         }
 
         .icone img {
-            height: 80px;
-            width: 80px;
+           display: none;
         }
 
-        .container-calendario h1 {
-            font-size: 28px;
-        }
-
-        .titulo-principal {
-            font-size: 24px;
-        }
-
-        .capas {
-            width: 140px;
-            height: 380px;
-        }
-
-        .capas img {
-            width: 139px;
-            height: 210px;
-        }
-
-        .nome {
-            font-size: 13px;
-            width: 139px;
-        }
-
-        .episodios, .descricao-capa p {
-            font-size: 12px;
+        .img-pessoa img {
+            width: 250px;
+            height: 250px;
         }
      }
      
