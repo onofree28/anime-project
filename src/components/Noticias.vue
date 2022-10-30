@@ -1,12 +1,12 @@
 <template>
     <div class="container">
         <div class="container-titulo">
-            <p class="titulo"><fa icon="fa-solid fa-bullhorn" />  Noticias</p>
+            <p class="titulo"><fa icon="fa-solid fa-bullhorn" />  Notícias</p>
         </div>
         <div class="barra"></div>
         <div class="container-noticias">
             <div class="container-destaque">
-                <p class="indice">Noticias em destaque</p>
+                <p class="indice">Notícias em destaque</p>
                 <div class="categoria" v-for="destaque in destaques" :key="destaque.id">
                     <div class="destaque">
                         <router-link @click.native="scrollToTop()" :to="destaque.link">
@@ -51,19 +51,37 @@
 
                 noticias: [
                     {
-                        id: 7,
+                        id: 12,
                         titulo: 'Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween',
                         img: '/img-noticias/the-angel-noticia.jpg',
                         alt: 'the-angel-noticia-imagem'
                     },
                     {
-                        id: 8,
+                        id: 11,
                         titulo: 'Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento',
                         img: '/img-noticias/sugar-apple-noticia.jpg',
                         alt: 'sugar-apple-noticia-imagem'
                     },
                     {
+                        id: 10,
+                        titulo: 'Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal',
+                        img: '/img-noticias/nier-automata-noticia.jpg',
+                        alt: 'nier-automata-noticia-imagem'
+                    },
+                    {
+                        id: 9,
+                        titulo: 'Adaptação em anime de Spy Classroom ganha novo vídeo promocional focado na Sibylla',
+                        img: '/img-noticias/spy-classroom-noticia.jpg',
+                        alt: 'spy-classroom-noticia-imagem'
+                    },
+                    {
                         id: 8,
+                        titulo: 'Kaguya-sama: Love is War -The First Kiss That Never Ends- ganha vídeo promocional e data de estreia',
+                        img: '/img-noticias/kaguya-sama-noticia.jpg',
+                        alt: 'kaguya-sama-noticia-imagem'
+                    },
+                    {
+                        id: 7,
                         titulo: 'Conheça o elenco brasileiro da dublagem de More than a Married Couple, but Not Lovers.',
                         img: '/img-noticias/more-than-noticia.jpg',
                         alt: 'more-than-noticia-imagem'
@@ -162,7 +180,7 @@
         flex-direction: column;
         width: 240px;
         height: 555px;
-        padding: 10px 0;
+        padding: 10px 10px;
         color: aliceblue;
         font-size: 16px;
     }
@@ -173,12 +191,12 @@
     }
 
     .indice {
-        padding: 4px 10px;
+        padding: 2px 10px;
         font-size: 20px;
     }
 
     .destaque {
-        padding: 30px 10px;
+        padding: 30px 15px 30px 0;
         width: 250px;
     }
     .destaque img {
@@ -225,7 +243,7 @@
     }
 
     .noticias img {
-        width: 150px;
+        width: 180px;
         height: 75px;
         object-fit: cover;
     }
