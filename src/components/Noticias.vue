@@ -51,37 +51,55 @@
 
                 noticias: [
                     {
-                        id: 1,
+                        id: 7,
+                        titulo: 'Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween',
+                        img: '/img-noticias/the-angel-noticia.jpg',
+                        alt: 'the-angel-noticia-imagem'
+                    },
+                    {
+                        id: 8,
+                        titulo: 'Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento',
+                        img: '/img-noticias/sugar-apple-noticia.jpg',
+                        alt: 'sugar-apple-noticia-imagem'
+                    },
+                    {
+                        id: 8,
+                        titulo: 'Conheça o elenco brasileiro da dublagem de More than a Married Couple, but Not Lovers.',
+                        img: '/img-noticias/more-than-noticia.jpg',
+                        alt: 'more-than-noticia-imagem'
+                    },
+                    {
+                        id: 6,
                         titulo: 'Confira o horário da dublagem brasileira da 6ª temporada de My Hero Academia.',
                         img: '/img-noticias/my-hero-noticia.jpg',
                         alt: 'my-hero-noticia-imagem'
                     },
                     {
-                        id: 2,
+                        id: 5,
                         titulo: 'Confira o horário de estreia da dublagem brasileira da 2ª parte de SPY x FAMILY',
                         img: '/img-noticias/spy-family-noticia.jpg',
                         alt: 'spy-family-noticia-imagem'
                     },
                     {
-                        id: 3,
+                        id: 4,
                         titulo: 'Veja as belezas de Mondstadt em novo vídeo animado de Genshin Impact',
                         img: '/img-noticias/genshin-noticia.jpg',
                         alt: 'genshin-noticia-imagem'
                     },
                     {
-                        id: 4,
+                        id: 3,
                         titulo: 'Conheça o elenco brasileiro da dublagem da 2ª temporada de Uzaki-chan Wants to Hang Out!',
                         img: '/img-noticias/uzaki-chan-noticia.jpg',
                         alt: 'uzaki-chan-noticia-imagem'
                     },
                     {
-                        id: 5,
+                        id: 2,
                         titulo: 'Bartender tem nova adaptação para anime anunciada',
                         img: '/img-noticias/bartender-noticia.jpg',
                         alt: 'bartender-noticia-imagem'
                     },
                     {
-                        id: 6,
+                        id: 1,
                         titulo: 'Conheça o elenco brasileiro da dublagem de Berserk: The Golden Age Arc - Memorial Edition',
                         img: '/img-noticias/berserk-noticia.jpg',
                         alt: 'berserk-noticia-imagem'
@@ -144,7 +162,7 @@
         flex-direction: column;
         width: 240px;
         height: 555px;
-        padding: 10px 10px;
+        padding: 10px 0;
         color: aliceblue;
         font-size: 16px;
     }
@@ -194,9 +212,13 @@
         padding: 5px;
     }
 
+    .noticias:nth-child(n+8) {
+        display: none;
+    }
+
     .noticias p {
         padding-left: 10px;
-        font-size: 18px;
+        font-size: 16px;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
