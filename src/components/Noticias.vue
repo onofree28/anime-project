@@ -19,7 +19,10 @@
             <div class="container-recentes">
                 <p class="recentes-titulo">Mais recentes</p>
                 <div class="noticias" v-for="noticia in noticias" :key="noticia.id">
-                    <img :src="noticia.img" :alt="noticia.alt">
+                    <router-link @click="scrollToTop()"
+                         :to="noticia.link">
+                        <img :src="noticia.img" :alt="noticia.alt">
+                    </router-link>
                     <p>{{ noticia.titulo }}</p>
                 </div>
             </div>
@@ -54,73 +57,85 @@
                         id: 12,
                         titulo: 'Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween',
                         img: '/img-noticias/the-angel-noticia.jpg',
-                        alt: 'the-angel-noticia-imagem'
+                        alt: 'the-angel-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 11,
                         titulo: 'Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento',
                         img: '/img-noticias/sugar-apple-noticia.jpg',
-                        alt: 'sugar-apple-noticia-imagem'
+                        alt: 'sugar-apple-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 10,
                         titulo: 'Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal',
                         img: '/img-noticias/nier-automata-noticia.jpg',
-                        alt: 'nier-automata-noticia-imagem'
+                        alt: 'nier-automata-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 9,
                         titulo: 'Adaptação em anime de Spy Classroom ganha novo vídeo promocional focado na Sibylla',
                         img: '/img-noticias/spy-classroom-noticia.jpg',
-                        alt: 'spy-classroom-noticia-imagem'
+                        alt: 'spy-classroom-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 8,
                         titulo: 'Kaguya-sama: Love is War -The First Kiss That Never Ends- ganha vídeo promocional e data de estreia',
                         img: '/img-noticias/kaguya-sama-noticia.jpg',
-                        alt: 'kaguya-sama-noticia-imagem'
+                        alt: 'kaguya-sama-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 7,
                         titulo: 'Conheça o elenco brasileiro da dublagem de More than a Married Couple, but Not Lovers.',
                         img: '/img-noticias/more-than-noticia.jpg',
-                        alt: 'more-than-noticia-imagem'
+                        alt: 'more-than-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 6,
                         titulo: 'Confira o horário da dublagem brasileira da 6ª temporada de My Hero Academia.',
                         img: '/img-noticias/my-hero-noticia.jpg',
-                        alt: 'my-hero-noticia-imagem'
+                        alt: 'my-hero-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 5,
                         titulo: 'Confira o horário de estreia da dublagem brasileira da 2ª parte de SPY x FAMILY',
                         img: '/img-noticias/spy-family-noticia.jpg',
-                        alt: 'spy-family-noticia-imagem'
+                        alt: 'spy-family-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 4,
                         titulo: 'Veja as belezas de Mondstadt em novo vídeo animado de Genshin Impact',
                         img: '/img-noticias/genshin-noticia.jpg',
-                        alt: 'genshin-noticia-imagem'
+                        alt: 'genshin-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 3,
                         titulo: 'Conheça o elenco brasileiro da dublagem da 2ª temporada de Uzaki-chan Wants to Hang Out!',
                         img: '/img-noticias/uzaki-chan-noticia.jpg',
-                        alt: 'uzaki-chan-noticia-imagem'
+                        alt: 'uzaki-chan-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 2,
                         titulo: 'Bartender tem nova adaptação para anime anunciada',
                         img: '/img-noticias/bartender-noticia.jpg',
-                        alt: 'bartender-noticia-imagem'
+                        alt: 'bartender-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
                     {
                         id: 1,
                         titulo: 'Conheça o elenco brasileiro da dublagem de Berserk: The Golden Age Arc - Memorial Edition',
                         img: '/img-noticias/berserk-noticia.jpg',
-                        alt: 'berserk-noticia-imagem'
+                        alt: 'berserk-noticia-imagem',
+                        link: '/the-angel-noticia'
                     },
 
                 ]
@@ -191,12 +206,12 @@
     }
 
     .indice {
-        padding: 2px 10px;
+        padding: 10px 10px;
         font-size: 20px;
     }
 
     .destaque {
-        padding: 30px 15px 30px 0;
+        padding: 30px 10px;
         width: 250px;
     }
     .destaque img {
@@ -243,7 +258,7 @@
     }
 
     .noticias img {
-        width: 180px;
+        width: 136px;
         height: 75px;
         object-fit: cover;
     }

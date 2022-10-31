@@ -65,6 +65,11 @@ const routes = [
     name: 'anime-awards',
     component: () => import('../views/Noticias/AnimeAwards.vue')
   },
+  {
+    path: '/the-angel-noticia',
+    name: 'the-angel-noticia',
+    component: () => import('../views/Noticias/TheAngel.vue')
+  },
 ]
 
 const router = createRouter({
