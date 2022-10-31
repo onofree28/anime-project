@@ -24,6 +24,10 @@
             <div class="img-promocional">
                 <img src="/img-noticias/the-angel-promocional.jpg" alt="the-angel">
             </div>
+            <p class="nome-img-promo">Um vídeo também foi lançado para o visual:</p>
+            <div class="video-promocional">
+                <iframe class="video" src="https://www.youtube.com/embed/VA46_oK5FBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class="descricao">
                 <p>Nascida em Los Angeles, <strong>Sally Amaki</strong> faz parte do projeto de grupo digital de idol de vozes <strong>22/7</strong> (lê-se: “Nanabun no Nijuni”), 
                     criado por <strong>Yasushi Akimoto</strong> e surgido da colaboração entre a <strong>Sony Music</strong> e a <strong>ANIPLEX</strong>. Ela é ativa em diversas áreas como 
@@ -121,6 +125,16 @@
         height: 905px;
     }
 
+    .video-promocional {
+        display: flex;
+        justify-content: center;
+    }
+
+    .video {
+        width: 700px;
+        height: 400px;
+    }
+
     .nome-img-promo {
         text-align: center;
         color: #ff7a00;
@@ -137,6 +151,14 @@
             width: 340px;
         }
 
+        .titulo {
+            font-size: 20px;
+        }
+
+        .noticia p {
+            font-size: 13px;
+        }
+
         .banner {
             padding-left: 12px;
         }
@@ -150,9 +172,14 @@
            display: none;
         }
 
-        .img-pessoa img {
-            width: 250px;
-            height: 250px;
+        .img-promocional img {
+            width: 300px;
+            height: 390px;
+        }
+
+        .video {
+            width: 300px;
+            height: 200px;
         }
      }
      
@@ -160,9 +187,22 @@
          .titulo p {
              font-size: 28px;
          }
-         .container-titulo, .container-noticias, .barra {
-           width: 800px;
+         .noticia, .divisoria {
+            width: 680px;
          }
+
+         .icone img {
+            display: none;
+         }
+
+         .banner {
+            padding-left: 12px;
+         }
+
+         .video {
+            width: 640px;
+            height: 380px;
+        }
      }
 
 </style>
