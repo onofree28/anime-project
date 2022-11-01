@@ -28,25 +28,43 @@
             <div class="video-promocional">
                 <iframe class="video" src="https://www.youtube.com/embed/VA46_oK5FBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="descricao">
-                <p>Nascida em Los Angeles, <strong>Sally Amaki</strong> faz parte do projeto de grupo digital de idol de vozes <strong>22/7</strong> (lê-se: “Nanabun no Nijuni”), 
-                    criado por <strong>Yasushi Akimoto</strong> e surgido da colaboração entre a <strong>Sony Music</strong> e a <strong>ANIPLEX</strong>. Ela é ativa em diversas áreas como 
-                    apresentadoras de shows de TV e eventos graças a sua fluência em inglês.</p>
-                    <br>
-                <p><span class="falando">“Estou bastante animada para ver quais animes ganharão em cada uma das categorias! Darei meu melhor para apresentar este evento tão empolgante!”</span>, disse <strong>Amaki</strong>.</p>
-            </div>
-            <div class="img-pessoa">
-                <img src="/img-anime-awards/jon-kabira.jpg" alt="jon-kabira">
+            <p class="nome-img-promo">Ilustração Promocional:</p>
+            <div class="img-promocional">
+                <img src="/img-noticias/the-angel-promocional2.jpg" alt="the-angel">
             </div>
             <div class="descricao">
-                <p></p>
-                    <br>
-                    <p><span class="falando">"Estou muito feliz e animado por ser convidado para apresentar a sétima edição anual do Crunchyroll Anime Awards! Sally Amaki e eu estamos ansiosos para o evento juntamente com o mundo inteiro. Nos vemos lá!"</span>, disse <strong>Kabira</strong>.</p>
+               <p>Além de <strong>Kenichi Imaizumi</strong> (After School Dice Club) na direção, <strong>Keiichiro Ochi</strong> (<span class="crunchy">The Quintessential Quintuplets</span>) escreverá a 
+                composição da série a partir dos light novels originais de Saekisan. <strong>Takayuki Noguchi</strong> (Queen's Blade) adaptará os designs 
+                originais dos personagens de Hanekoto para a animação e <strong>Moe Hyuga</strong> (Steins;Gate 0) está cuidando da trilha sonora.
+               </p>
+               <br>
+               <p><strong>Taito Ban</strong> vai interpretar Amane Fujimiya na série, enquanto <strong>Manaka Iwami</strong> faz a voz de Mahiru Shiina, <strong>Taku Yashiro</strong> interpreta 
+                Itsuki Akazawa  e <strong>Haruka Shiraishi</strong> interpreta Chitose Shirakawa.
+               </p>
+               <br>
+               <p>A história original de <span class="crunchy">The Angel Next Door Spoils Me Rotten</span> foi lançada inicialmente no site de publicação independente 
+                Shosetsuka ni Naro por Saekisan antes de ser adquirida pela <strong>GA Bunko</strong> e lançada comercialmente com ilustrações de Hanekoto.
+               </p>
+            </div>
+            <div class="sinopse">
+                <p class="crunchy">Sinopse:</p>
+                <br>
+                <div class="conteudo-sinopse">
+                    <div>
+                        <p>
+                            Mahiru é uma garota tão linda que seus colegas a chamam de "anjo". Ela não é apenas uma estrela atlética e com notas 
+                            perfeitas, ela também é linda de morrer. Amane, um cara normal e desleixado assumido, nunca pensou muito na beleza 
+                            divina, apesar de frequentar a mesma escola. Mas tudo muda quando ele vê Mahiru sentada sozinha em um parque 
+                            durante uma tempestade. Assim começa a estranha relação entre este par incrivelmente improvável!
+                        </p>
+                    </div>
+                </div>
+                <br>
             </div>
             <div class="divisoria"></div>
             <br>
             <div class="descricao">
-                <p>A sétima edição do Anime Awards acontecerá dia 4 de março de 2023, em uma cerimônia ao vivo no Grand Prince Hotel New Takanawa, em Tóquio, com a presença de criadores, artistas e membros de estúdios de anime. O evento será transmitido para o público do resto do mundo. Os juízes da premiação serão anunciados ainda neste ano, com os indicados e o início da votação dos fãs previstos para o começo de 2023.</p>
+                <p>Fique ligado na <span class="crunchy">Anime Project Notícias</span> e não perca nenhuma novidade!</p>
             </div>
             <br>
         </div>
@@ -139,10 +157,21 @@
         text-align: center;
         color: #ff7a00;
         font-weight: bold;
+        margin: 10px 0 10px 0;
+    }
+
+    .sinopse p {
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 15px;
     }
 
 
-    .falando {
+    .conteudo-sinopse {
+        display: flex;
+        justify-content: center;
+        width: 700px;
+        font-size: 14px;
         font-style: italic;
     }
 
