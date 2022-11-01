@@ -3,8 +3,15 @@
         <router-link to="/" id="logo-url">
             <img :src="logo" :alt="alt" id="logo">
         </router-link>
-        <router-link to="/">Inicio</router-link>
-        <router-link to="/about">Sobre</router-link>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div class="nav-list">
+            <router-link to="/">Inicio</router-link>
+            <router-link to="/about">Sobre</router-link>
+        </div>
     </nav>
 </template>
 
@@ -23,6 +30,11 @@ export default {
         align-items: center;
         padding: 15px 50px;
     }
+
+    .nav-list {
+        display: flex;
+    }
+
     .nav a{
         text-decoration: none;
         color: #ff7a00;
@@ -44,4 +56,9 @@ export default {
         width: 110px;
         height: 80px;
     }
+
+    @media (max-width: 1000px) {
+       
+     }
+     
 </style>

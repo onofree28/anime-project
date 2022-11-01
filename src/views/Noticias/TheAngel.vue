@@ -170,6 +170,7 @@
     .conteudo-sinopse {
         display: flex;
         justify-content: center;
+        padding-left: 100px;
         width: 700px;
         font-size: 14px;
         font-style: italic;
@@ -210,6 +211,13 @@
             width: 300px;
             height: 200px;
         }
+        .conteudo-sinopse {
+            display: flex;
+            justify-content: center;
+            padding-left: 18px;
+            width: 300px;
+            font-style: italic;
+        }
      }
      
      @media (min-width: 761px) and (max-width: 1100px) {
@@ -231,6 +239,14 @@
          .video {
             width: 640px;
             height: 380px;
+        }
+        .conteudo-sinopse {
+            display: flex;
+            justify-content: center;
+            padding-left: 90px;
+            width: 500px;
+            font-size: 14px;
+            font-style: italic;
         }
      }
 

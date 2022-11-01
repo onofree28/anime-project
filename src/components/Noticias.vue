@@ -18,12 +18,14 @@
             </div>
             <div class="container-recentes">
                 <p class="recentes-titulo">Mais recentes</p>
-                <div class="noticias" v-for="noticia in noticias" :key="noticia.id">
-                    <router-link @click="scrollToTop()"
-                         :to="noticia.link">
-                        <img :src="noticia.img" :alt="noticia.alt">
-                    </router-link>
-                    <p>{{ noticia.titulo }}</p>
+                <div class="categoria2" v-for="noticia in noticias" :key="noticia.id">
+                    <div class="noticias">
+                        <router-link @click="scrollToTop()"
+                             :to="noticia.link">
+                            <img :src="noticia.img" :alt="noticia.alt">
+                        </router-link>
+                        <p>{{ noticia.titulo }}</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -194,7 +196,7 @@
         align-items: flex-start;
         flex-direction: column;
         width: 240px;
-        height: 555px;
+        height: 585px;
         padding: 10px 10px;
         color: aliceblue;
         font-size: 16px;
@@ -204,9 +206,13 @@
         background-color: #616161;
         transition: 0.5s;
     }
+    .categoria2 :hover {
+        background-color: #616161;
+        transition: 0.5s;
+    }
 
     .indice {
-        padding: 10px 10px;
+        padding-left: 10px;
         font-size: 20px;
     }
 
@@ -245,7 +251,7 @@
         padding: 5px;
     }
 
-    .noticias:nth-child(n+8) {
+    .categoria2:nth-child(n+8) {
         display: none;
     }
 
@@ -301,5 +307,8 @@
          .container-titulo, .container-noticias, .barra {
            width: 800px;
          }
+        .container-recentes {
+            padding-left: 35px;
+        }
      }
 </style>
