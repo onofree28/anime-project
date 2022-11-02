@@ -25,7 +25,7 @@ export default {
   .header {
     padding-bottom: 15px;
     width: auto;
-    height: 100px;
+    height: 10vh;
     background-color: #464646;
   }
 

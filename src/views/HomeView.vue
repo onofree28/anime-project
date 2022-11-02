@@ -18,15 +18,15 @@
 </template>
 
 <script>
+import Banner from '../components/Banner.vue'
 import CarouselAnimes from '@/components/CarouselAnimes.vue';
-import Banner from '@/components/Banner.vue';
 import Noticias from '@/components/Noticias.vue';
 export default {
   name: 'HomeView',
   components: {
     CarouselAnimes,
-    Banner,
-    Noticias
+    Noticias,
+    Banner
 }
 }
 </script>

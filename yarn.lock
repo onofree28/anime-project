@@ -5493,6 +5493,13 @@ vue-agile@^2.0.0:
     lodash.orderby "^4.6.0"
     lodash.throttle "^4.1.1"
 
+vue-burger-menu@^2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/vue-burger-menu/-/vue-burger-menu-2.0.5.tgz#a535e178e327302d41d129da5db773d8c140ac94"
+  integrity sha512-j0zM3gOTNv5rtIfVGIc0F0Ff5iUGQk7vLRBRkHLC2Jsv+4WL8BFqSBii+VzfIlqIQed7v0zqWueJLYxe9YwjmQ==
+  dependencies:
+    vue "^2.5.17"
+
 vue-country-flag-next@^2.3.2:
   version "2.3.2"
   resolved "https://registry.npmjs.org/vue-country-flag-next/-/vue-country-flag-next-2.3.2.tgz"
