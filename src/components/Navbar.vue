@@ -101,6 +101,7 @@ export default {
             display: flex;
             color: #ff7a00;
             font-weight: bold;
+            justify-content: space-evenly;
         }
 
         #menu :hover {
@@ -109,41 +110,48 @@ export default {
         }
 
         #nav-list {
-        display: none;
+            display: none;
+        }
+        #nav-list a {
+            font-size: 25px;
+            padding: 30px;
+            @keyframes NavLinkFade {
+                from {
+                    opacity: 0;
+                    transform: translateX(50px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateX(0);
+                }
+            }
+            animation: NavLinkFade 1s;
         }
         #nav-list.open {
             position: fixed;
-            top: 110px;
+            top: 105px;
             right: 1px;
-            padding-top: 10px;
+            padding-top: 50px;
+            padding-left: 30px;
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
             align-items: center;
-            justify-content: right;
+            justify-content: flex-start;
             height: 100%;
-            width: 25%;
+            width: 50vw;
             background-color: #464646;
             user-select: none;
             z-index: 100;
+            @keyframes go-back { 0%{
+                transform: translateX(100px);
+            } 100% {
+                transform: translateX(0);
+            }}
+            animation: go-back 1s;
         }
+        
         #nav-list.open > nav {
             overflow: scroll;
-        }
-        #nav-list.open > nav > span {
-            display: flex;
-            align-items: center;
-            width: 50%;
-            height: 40px;
-            padding-left: 30px;
-            background-color: #fff;
-            border: 1px solid #ededed;
-            border-width: 0px 0px 1px 0px;
-            user-select: none;
-            cursor: pointer;
-        }
-        #nav-list.open > nav > span:nth-last-child(1) {
-            border: none;
         }
      }
      
