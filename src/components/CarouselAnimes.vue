@@ -124,7 +124,7 @@
 
 <style scoped>
     .vue-carousel {
-        padding: 0 350px 0 350px;
+        padding: 0 280px 0 280px;
     }
 
     .container-animes {
@@ -156,22 +156,15 @@
         color: #ff7a00;
     }
 
-
-    @media (min-width: 300px) and (max-width: 500px) {
-        .vue-carousel {
-            padding: 0;
-        }
-    }
-
-    @media (min-width: 501px) and (max-width: 1200px) {
-        .vue-carousel {
-            padding: 0;
-        }
-    }
-
-    @media (min-width: 1201px) and (max-width: 1650px) {
+    @media (min-width: 200px) and (max-width: 760px) {
         .vue-carousel {
             padding: 0 50px;
+        }
+    }
+
+    @media (min-width: 761px) and (max-width: 1300px) {
+        .vue-carousel {
+            padding: 0 30px;
         }
     }
 

@@ -35,7 +35,7 @@ export default {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1100px;
+    width: 70vw;
     padding-top: 20px 10px 20px 10px;
     color: aliceblue;
     background-color: #050505;
@@ -50,13 +50,12 @@ export default {
 
   .barra {
     height: 0.5vh;
-    width: 1100px;
+    width: 70vw;
     background-color: #ff7a00;
   }
 
   .home p {
     font-size: 28px;
-    margin-left: 0;
   }
 
   .home a {
@@ -64,7 +63,6 @@ export default {
     text-decoration: none;
     color: #616161;
     font-weight: bold;
-    margin-right: 0;
   }
 
   .home a:hover {
@@ -90,9 +88,8 @@ export default {
    .home p {
         font-size: 22px;
     }
-
     .home, .barra {
-      width: 340px;
+      width: 90vw;
     }
 }
 
@@ -101,7 +98,7 @@ export default {
         font-size: 28px;
     }
     .home, .barra {
-      width: 750px;
+      width: 90vw;
     }
 }
 

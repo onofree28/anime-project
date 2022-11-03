@@ -129,7 +129,7 @@ export default {
         }
         #nav-list.open {
             position: fixed;
-            top: 105px;
+            top: 90px;
             right: 1px;
             padding-top: 50px;
             padding-left: 30px;
