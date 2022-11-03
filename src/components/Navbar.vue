@@ -138,7 +138,7 @@ export default {
             align-items: center;
             justify-content: flex-start;
             height: 100%;
-            width: 50vw;
+            width: 35vw;
             background-color: #464646;
             user-select: none;
             z-index: 100;

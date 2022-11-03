@@ -5,26 +5,30 @@
         </div>
         <div class="barra"></div>
         <div class="container-noticias">
-            <div class="container-destaque">
+            <div class="container-indice">
                 <p class="indice">Notícias em destaque</p>
-                <div class="categoria" v-for="destaque in destaques" :key="destaque.id">
-                    <div class="destaque">
-                        <router-link @click.native="scrollToTop()" :to="destaque.link">
-                            <img :src="destaque.img" :alt="destaque.alt">
-                        </router-link> 
-                        <p>{{ destaque.titulo }}</p>
+                <div class="container-destaque">
+                    <div class="categoria" v-for="destaque in destaques" :key="destaque.id">
+                        <div class="destaque">
+                            <router-link @click.native="scrollToTop()" :to="destaque.link">
+                                <img :src="destaque.img" :alt="destaque.alt">
+                            </router-link> 
+                            <p>{{ destaque.titulo }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="container-recentes">
-                <p class="recentes-titulo">Mais recentes</p>
-                <div class="categoria2" v-for="noticia in noticias" :key="noticia.id">
-                    <div class="noticias">
-                        <router-link @click="scrollToTop()"
-                             :to="noticia.link">
-                            <img :src="noticia.img" :alt="noticia.alt">
-                        </router-link>
-                        <p>{{ noticia.titulo }}</p>
+                <div class="container-recentes-titulo">
+                    <p class="recentes-titulo">Mais recentes</p>
+                    <div class="categoria2" v-for="noticia in noticias" :key="noticia.id">
+                        <div class="noticias">
+                            <router-link @click="scrollToTop()"
+                                 :to="noticia.link">
+                                <img :src="noticia.img" :alt="noticia.alt">
+                            </router-link>
+                            <p>{{ noticia.titulo }}</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -211,13 +215,25 @@
         transition: 0.5s;
     }
 
-    .indice {
+    .container-indice {
+        display: flex;
+        flex-direction: column;
         padding-left: 10px;
         font-size: 20px;
     }
 
+    .indice {
+        color: aliceblue;
+        padding: 43px 0 0 50px;
+    }
+
+    .container-recentes-titulo {
+        display: flex;
+        flex-direction: column;
+    }
+
     .destaque {
-        padding: 30px 10px;
+        padding: 30px 10px 30px 30px;
         width: 250px;
     }
     .destaque img {
@@ -239,7 +255,7 @@
     }
 
     .recentes-titulo {
-        padding: 0 0 10px 5px;
+        padding: 0 0 15px 5px;
         font-size: 20px;
     }
 
@@ -277,6 +293,7 @@
          .container-titulo, .container-noticias, .barra {
            width: 340px;
            flex-wrap: wrap;
+           padding-top: 0;
          }
 
          .noticias {
@@ -289,14 +306,28 @@
             object-fit: cover;
         }
         .container-destaque {
-            padding-top: 40px;
+            justify-content: space-evenly;
+            flex-direction: row;
+            padding: 10px 0 0 0;
             width: 250px;
-            height: 400px;
+            height: 250px;
         }
          .destaque img {
-            width: 200px;
+            width: 150px;
             height: 90px;
             object-fit: cover;
+        }
+
+        .destaque {
+            width: 150px;
+            padding-left: 10px;
+        }
+
+        .indice {
+            padding-left: 20px;
+        }
+        .recentes-titulo {
+            padding-left: 95px;
         }
      }
      
@@ -305,10 +336,22 @@
              font-size: 28px;
          }
          .container-titulo, .container-noticias, .barra {
-           width: 800px;
+           width: 750px;
          }
         .container-recentes {
-            padding-left: 35px;
+            padding-left: 50px;
+        }
+
+        .noticias {
+            width: 400px;
+        }
+
+        .indice {
+            font-size: 18px;
+            padding-left: 60px;
+        }
+        .recentes-titulo {
+            font-size: 18px;
         }
      }
 </style>

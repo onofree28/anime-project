@@ -101,7 +101,7 @@ export default {
         font-size: 28px;
     }
     .home, .barra {
-      width: 800px;
+      width: 750px;
     }
 }
 
