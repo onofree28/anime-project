@@ -72,7 +72,7 @@ export default defineComponent({
         justify-content: center;
         align-content: center;
         background-color: #2b2b2b;
-        padding-top: 8px;
+        padding-top: 135px;
     }
 
     @media (min-width: 300px) and (max-width: 500px) {

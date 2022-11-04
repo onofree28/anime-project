@@ -141,6 +141,10 @@
         padding: 8px;
     }
 
+    .anime img {
+        height: 212px;
+    }
+
     .container-animes :hover {
         background-color: #616161;
         transition: 0.5s;
@@ -158,7 +162,7 @@
 
     @media (min-width: 200px) and (max-width: 760px) {
         .vue-carousel {
-            padding: 0 50px;
+            padding: 0 5px;
         }
     }
 

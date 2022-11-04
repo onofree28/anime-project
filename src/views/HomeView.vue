@@ -11,6 +11,10 @@
     <div>
       <CarouselAnimes/>
     </div>
+    <div class="ads">
+      <a href="//www.crunchyroll.com/pt-br/welcome"><img src="/img/assista-animes-sem-ads.png" alt="banner-crunchy"></a>
+      
+    </div>
     <div>
       <Noticias/>
     </div>
@@ -84,12 +88,21 @@ export default {
       transition: 0.5s;
   }
 
+  .ads {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+
   @media (min-width: 200px) and (max-width: 760px) {
    .home p {
         font-size: 22px;
     }
     .home, .barra {
       width: 90vw;
+    }
+    .ads {
+      display: none;
     }
 }
 
