@@ -159,6 +159,9 @@
             width: 250px;
             height: 250px;
         }
+        .ads {
+            display: none;
+        }
      }
      
      @media (min-width: 761px) and (max-width: 1100px) {
