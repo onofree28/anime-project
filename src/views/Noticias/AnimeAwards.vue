@@ -46,6 +46,9 @@
                 <p>A sétima edição do Anime Awards acontecerá dia 4 de março de 2023, em uma cerimônia ao vivo no Grand Prince Hotel New Takanawa, em Tóquio, com a presença de criadores, artistas e membros de estúdios de anime. O evento será transmitido para o público do resto do mundo. Os juízes da premiação serão anunciados ainda neste ano, com os indicados e o início da votação dos fãs previstos para o começo de 2023.</p>
             </div>
             <br>
+            <div class="ads">
+                <a href="//www.crunchyroll.com/pt-br/welcome"><img src="/img/assista-animes-sem-ads.png" alt="banner-crunchy"></a> 
+            </div>
         </div>
     </div>
 </template>
@@ -71,7 +74,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 150px;
     }
     .titulo {
         padding: 5px;
@@ -127,6 +130,11 @@
 
     .falando {
         font-style: italic;
+    }
+    .ads {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
     }
 
     @media (min-width: 200px) and (max-width: 760px) {

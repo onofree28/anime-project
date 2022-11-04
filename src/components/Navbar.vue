@@ -8,8 +8,8 @@
             <span @click="showMenu()">Menu</span>
         </div>
         <div id="nav-list">
-            <router-link to="/">Inicio</router-link>
-            <router-link to="/about">Sobre</router-link>
+            <router-link @click="showMenu()" to="/">Inicio</router-link>
+            <router-link @click="showMenu()" to="/about">Sobre</router-link>
         </div>
     </nav>
 </template>

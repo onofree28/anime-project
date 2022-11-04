@@ -4,10 +4,10 @@
             <slide v-for="anime in animes" :key="anime.id">
                 <div class="container-animes">
                     <div class="anime">
-                        <router-link :to="anime.link">
+                        <router-link @click="scrollToTop()" :to="anime.link">
                             <img :src="anime.img" :alt="anime.alt">
                         </router-link>
-                        <router-link style="text-decoration: none;" :to="anime.link">
+                        <router-link @click="scrollToTop()" style="text-decoration: none;" :to="anime.link">
                             <p class="nome">{{ anime.nome }}</p>
                         </router-link>
                         <p class="serie">{{ anime.tipo }}</p>
@@ -119,6 +119,11 @@
                 }
             }
         },
+        methods: {
+            scrollToTop() {
+                window.scrollTo(0,0)
+            }
+        }
     })
 </script>
 

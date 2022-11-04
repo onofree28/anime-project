@@ -12,8 +12,7 @@
       <CarouselAnimes/>
     </div>
     <div class="ads">
-      <a href="//www.crunchyroll.com/pt-br/welcome"><img src="/img/assista-animes-sem-ads.png" alt="banner-crunchy"></a>
-      
+      <a href="//www.crunchyroll.com/pt-br/welcome"><img src="/img/assista-animes-sem-ads.png" alt="banner-crunchy"></a> 
     </div>
     <div>
       <Noticias/>

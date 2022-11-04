@@ -1,5 +1,5 @@
 <template>
-    <div class="container-banner">
+    <div class="container-anime">
         <div class="banner">
             <img :src="banner" :alt="alt">
         </div>
@@ -52,7 +52,9 @@
 </script>
 
 <style scoped>
-
+    .container-anime {
+        padding-top: 125px;
+    }
     .banner {
         display: flex;
         justify-content: center;
@@ -84,6 +86,7 @@
     }
 
     .video {
+        width: 550px;
         padding: 2rem;
     }
 

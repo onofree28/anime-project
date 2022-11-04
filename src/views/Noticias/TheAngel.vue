@@ -92,7 +92,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 50px;
+        padding-top: 150px;
     }
     .titulo {
         padding: 5px;
