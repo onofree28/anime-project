@@ -89,6 +89,7 @@
     .video {
         padding: 2rem;
         width: 550px;
+        height: 300px;
     }
 
     .btn-ver {
@@ -120,7 +121,7 @@
         transition: 0.5s;
     }
 
-    @media (min-width: 300px) and (max-width: 500px) {
+    @media (min-width: 100px) and (max-width: 500px) {
         .banner img {
             width: 300px;
             height: 169px;
@@ -154,6 +155,10 @@
         }
         .info {
             font-size: 14px;
+        }
+        .video {
+            width: 400px;
+            height: 220px;
         }
     }
 </style>
