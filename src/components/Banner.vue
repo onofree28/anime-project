@@ -75,10 +75,11 @@ export default defineComponent({
         padding-top: 135px;
     }
 
-    @media (min-width: 300px) and (max-width: 500px) {
+    @media (min-width: 100px) and (max-width: 500px) {
             #main-banner img {
                 width: 300px;
                 height: 169px;
+                padding: 0 0 10px 0;
             }
     }
 

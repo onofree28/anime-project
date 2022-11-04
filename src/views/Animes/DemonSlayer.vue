@@ -122,6 +122,9 @@
     }
 
     @media (min-width: 100px) and (max-width: 500px) {
+        .container-anime {
+            padding-top: 114px;
+        }
         .banner img {
             width: 300px;
             height: 169px;
