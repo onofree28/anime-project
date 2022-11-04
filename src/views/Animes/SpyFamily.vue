@@ -143,6 +143,9 @@
     }
 
     @media (min-width: 501px) and (max-width: 1000px) {
+        .container-anime {
+            padding-top: 101px;
+        }
         .banner img {
             width: 500px;
             height: 282px;
@@ -155,6 +158,10 @@
         }
         .info {
             font-size: 14px;
+        }
+        .video {
+            width: 400px;
+            height: 220px;
         }
     }
 </style>

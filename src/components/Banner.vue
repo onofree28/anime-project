@@ -79,14 +79,15 @@ export default defineComponent({
             #main-banner img {
                 width: 300px;
                 height: 169px;
-                padding: 0 0 10px 0;
+                padding: 0 0 15px 0;
             }
     }
 
     @media (min-width: 501px) and (max-width: 1000px) {
             #main-banner img {
-                width: 500px;
+                width: 460px;
                 height: 282px;
+                padding: 0 0 25px 0;
             }
     }
 

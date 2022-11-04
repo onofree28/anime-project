@@ -1,6 +1,6 @@
 <template>
     <nav id="nav">
-        <router-link to="/" id="logo-url">
+        <router-link @click="scrollToTop()" to="/" id="logo-url">
             <img :src="logo" :alt="alt" id="logo">
         </router-link>
         <div id="menu">
@@ -8,8 +8,8 @@
             <span @click="showMenu()">Menu</span>
         </div>
         <div id="nav-list">
-            <router-link @click="showMenu()" to="/">Inicio</router-link>
-            <router-link @click="showMenu()" to="/about">Sobre</router-link>
+            <router-link @click="showMenu(), scrollToTop()" to="/">Inicio</router-link>
+            <router-link @click="showMenu(), scrollToTop()" to="/about">Sobre</router-link>
         </div>
     </nav>
 </template>
@@ -33,7 +33,10 @@ export default {
                 document.getElementById('nav-list').className = undefined
                 document.body.className = undefined 
             }
-        }
+        },
+        scrollToTop() {
+                window.scrollTo(0,0)
+            }
     }
     
 }

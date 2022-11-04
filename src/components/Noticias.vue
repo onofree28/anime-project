@@ -285,7 +285,7 @@
         object-fit: cover;
     }
 
-    @media (min-width: 200px) and (max-width: 760px) {
+    @media (min-width: 100px) and (max-width: 760px) {
         .titulo p {
              font-size: 22px;
          }
@@ -327,7 +327,7 @@
             padding-left: 20px;
         }
         .recentes-titulo {
-            padding-left: 95px;
+            padding: 0 0 30px 95px;
         }
      }
      
