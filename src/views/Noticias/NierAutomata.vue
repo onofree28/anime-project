@@ -15,47 +15,30 @@
                 </div>
             </div>
             <div class="descricao">
-                <p>Foi revelado recentemente a intérprete para a música de encerramento da adaptação em anime de <span class="crunchy">Sugar Apple Fairy Tale</span>, 
-                    baseado na série de light novels de fantasia escrita por <strong>Miri Mikawa</strong> e ilustrada por <strong>aki</strong> sobre uma jovem fabricante de doces que 
-                    tenta fazer amizade com sua fada guarda-costas.
+                <p>Nem toda máquina quer lutar, e agora um novo visual e um novo teaser trailer foram divulgados para o anime <span class="crunchy">NieR:Automata
+                    Ver1.1a</span>, baseado no popular jogo desenvolvido pela PlatinumGames e dirigido por Yoko Taro, o anime tem estreia agendada para
+                    janeiro de 2023 e contará com a produção do estúdio <strong>A-1 Pictures</strong>.
                     <br/>
                     <br>
-                    A música de encerramento, intitulada "Kanaeru" (Para Conceder um Desejo), é interpretada por <strong>Sumire Morohoshi</strong>. A música 
-                    apresenta letras de Yuho Iwasato, composição de Naohiro Minami e arranjo de <strong>NAOKI-T</strong>.
+                    A nova ilustração e trailer apresentam <strong>Pascal</strong>, uma Machine Lifeform pacifista que lidera uma vila de máquinas pacíficas, e também
+                    foi confirmado que a dubladora <strong>Aoi Yuki</strong> reprisa seu papel como Pascal do jogo <strong>NieR:Automata</strong> na adaptação em anime.
                    </p>
             </div>
-            <p class="nome-img-promo">Vídeo Promocional:</p>
+            <p class="nome-img-promo">Novo Vídeo Promocional:</p>
             <div class="video-promocional">
-                <iframe class="video" src="https://www.youtube.com/embed/Op1KIOgA3gc" title="TVアニメ『シュガーアップル・フェアリーテイル』ティザーPV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/h72tvfZ9zvc" title="アニメ『NieR:Automata Ver1.1a』Promotion File 004：パスカル" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p class="nome-img-promo">Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/sugar-apple-promocional.jpg" alt="sugar-apple">
+                <img src="/img-noticias/nier-automata-promocional.jpg" alt="nier-automata">
             </div>
             <div class="descricao">
-               <p> <span class="crunchy">Sugar Apple Fairy Tale</span> está sendo dirigido por <strong>Yohei Suzuki</strong> (<span class="crunchy">Planet With</span>), junto ao estúdio <strong>J.C. STAFF</strong>. Os roteiros ficam a cargo 
-                de <strong>Seishi Minakami</strong> (<span class="crunchy">A Certain Scientific Railgun</span>), design de personagens por <strong>Haruko Iizuka</strong> (<span class="crunchy">Horimiya</span>) e música por <strong>Hinako 
-                Tsubakiyama</strong> (<span class="crunchy">SABIKUI BISCO</span>). <strong>Yuka Nukui</strong> (Mandara em <span class="crunchy">Shinobi no Ittoki</span>) e <strong>Masaaki Mizunaka</strong> (Ryuuen em <span class="crunchy">Classroom of 
-                the Elite</span>) darão voz aos protagonistas Anne e Challe respectivamente.
+               <p>O jogo original <strong>NieR:Automata</strong> foi lançado no PlayStation 4 no Japão em 23 de fevereiro de 2017, com a América do Norte
+                seguindo em 7 de março e outras regiões em 10 de março. Também chegou ao Xbox One em 26 de junho de 2018, vendendo mais
+                de 5,5 milhões de cópias em todas as versões. Foi dirigido por Yoko Taro e segue 2B e 9S enquanto elas lutam contra uma invasão
+                mecânica ao lado da Resistência.
                </p>
                <br>
-               <p>A light novel <span class="crunchy">Sugar Apple Fairy Tale</span> foi lançado originalmente em 17 volumes encadernados entre abril de 2010 e janeiro de 2015!</p>
-               <br>
-            </div>
-            <div class="sinopse">
-                <p class="crunchy">Sinopse:</p>
-                <br>
-                <div class="conteudo-sinopse">
-                    <div>
-                        <p>
-                            Num mundo onde fadas são compradas e vendidas para quem paga mais, a convivência entre os humanos e o povo feérico 
-                            não é lá muito amigável. Mas amizade é exatamente o que Anne Halford quer de Challe, sua fada guarda-costas, ainda que 
-                            ele não goste tanto da ideia. Como seu mestre, Anne lhe ordena que a escolte por uma área bastante perigosa, mas com um 
-                            guarda-costas ansioso para escapar da escravidão, ela terá que encarar um desafio muito maior do que imaginava...
-                        </p>
-                    </div>
-                </div>
-                <br>
             </div>
             <div class="divisoria"></div>
             <br>
@@ -75,10 +58,10 @@
         name: 'TheAngel',
         data() {
             return {
-                titulo: `Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento`,
-                banner: '/img-noticias/sugar-apple-banner.jpg',
+                titulo: `Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal`,
+                banner: '/img-noticias/nier-automata-banner.jpg',
                 alt: 'banner-noticia',
-                img: '/img-noticias/sugar-apple-icone.jpg',
+                img: '/img-noticias/nier-automata-icone.jpg',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
             }

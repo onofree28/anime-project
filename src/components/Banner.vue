@@ -72,14 +72,13 @@ export default defineComponent({
         justify-content: center;
         align-content: center;
         background-color: #2b2b2b;
-        padding-top: 135px;
+        padding-top: 118px;
     }
 
     @media (min-width: 100px) and (max-width: 500px) {
             #main-banner img {
-                width: 300px;
-                height: 169px;
-                padding: 0 0 15px 0;
+                width: 350px;
+                height: 210px;
             }
     }
 
@@ -87,7 +86,6 @@ export default defineComponent({
             #main-banner img {
                 width: 460px;
                 height: 282px;
-                padding: 0 0 25px 0;
             }
     }
 

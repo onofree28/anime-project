@@ -75,6 +75,16 @@ const routes = [
     name: 'sugar-apple-noticia',
     component: () => import('../views/Noticias/SugarApple.vue')
   },
+  {
+    path: '/nier-automata-noticia',
+    name: 'nier-automata-noticia',
+    component: () => import('../views/Noticias/NierAutomata.vue')
+  },
+  {
+    path: '/spy-classroom-noticia',
+    name: 'spy-classroom-noticia',
+    component: () => import('../views/Noticias/SpyClassroom.vue')
+  },
 ]
 
 const router = createRouter({

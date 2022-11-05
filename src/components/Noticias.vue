@@ -78,14 +78,14 @@
                         titulo: 'Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal',
                         img: '/img-noticias/nier-automata-noticia.jpg',
                         alt: 'nier-automata-noticia-imagem',
-                        link: '/the-angel-noticia'
+                        link: '/nier-automata-noticia'
                     },
                     {
                         id: 9,
                         titulo: 'Adaptação em anime de Spy Classroom ganha novo vídeo promocional focado na Sibylla',
                         img: '/img-noticias/spy-classroom-noticia.jpg',
                         alt: 'spy-classroom-noticia-imagem',
-                        link: '/the-angel-noticia'
+                        link: '/spy-classroom-noticia'
                     },
                     {
                         id: 8,
@@ -286,8 +286,9 @@
     }
 
     @media (min-width: 100px) and (max-width: 760px) {
-        .titulo p {
-             font-size: 22px;
+        .titulo {
+            padding-top: 20px;
+             font-size: 24px;
          }
      
          .container-titulo, .container-noticias, .barra {

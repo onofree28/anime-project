@@ -107,11 +107,6 @@ export default {
             justify-content: space-evenly;
         }
 
-        #menu :hover {
-            color: aliceblue;
-            transition: 0.5s;
-        }
-
         #nav-list {
             display: none;
         }

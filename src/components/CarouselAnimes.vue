@@ -169,6 +169,13 @@
         .vue-carousel {
             padding: 0 5px;
         }
+        .anime img {
+            height: 180px;
+        }
+
+        .nome, .serie {
+            font-size: 12px;
+        }
     }
 
     @media (min-width: 761px) and (max-width: 1300px) {

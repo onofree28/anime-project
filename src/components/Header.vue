@@ -27,7 +27,7 @@ export default {
     z-index: 100;
     padding-bottom: 15px;
     width: 100vw;
-    height: 12vh;
+    height: 95px;
     background-color: #464646;
   }
 
