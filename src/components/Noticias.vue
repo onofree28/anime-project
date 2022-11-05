@@ -71,7 +71,7 @@
                         titulo: 'Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento',
                         img: '/img-noticias/sugar-apple-noticia.jpg',
                         alt: 'sugar-apple-noticia-imagem',
-                        link: '/the-angel-noticia'
+                        link: '/sugar-apple-noticia'
                     },
                     {
                         id: 10,

@@ -121,9 +121,33 @@
         transition: 0.5s;
     }
 
-    @media (min-width: 100px) and (max-width: 500px) {
+    @media (min-width: 100px) and (max-width: 300px) {
         .container-anime {
-            padding-top: 114px;
+            padding-top: 115px;
+        }
+        .banner img {
+            width: 300px;
+            height: 169px;
+        }
+
+        .info, .titulo {
+            width: 300px;
+        }
+        .titulo {
+            font-size: 12px;
+        }
+        .info {
+            font-size: 14px;
+        }
+        .video {
+            width: 300px;
+            height: 169px;
+        }
+    }
+
+    @media (min-width: 301px) and (max-width: 500px) {
+        .container-anime {
+            padding-top: 95px;
         }
         .banner img {
             width: 300px;

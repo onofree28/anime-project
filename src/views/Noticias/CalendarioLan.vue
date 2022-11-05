@@ -462,7 +462,7 @@
         font-size: 14px;
     }
 
-    @media (min-width: 200px) and (max-width: 910px) {
+    @media (min-width: 200px) and (max-width: 760px) {
         .noticia, .divisoria {
             width: 340px;
         }
@@ -472,13 +472,13 @@
         }
 
         .banner img {
-            height: 140px;
-            width: 220px;
+            padding-left: 8px;
+            height: 190px;
+            width: 320px;
         }
 
         .icone img {
-            height: 80px;
-            width: 80px;
+            display: none;
         }
 
         .container-calendario h1 {
@@ -513,9 +513,9 @@
         }
      }
      
-     @media (min-width: 910px) and (max-width: 1400px) {
+     @media (min-width: 761px) and (max-width: 1100px) {
         .noticia, .divisoria {
-            width: 800;
+            width: 680px;
         }
 
         .calendario {

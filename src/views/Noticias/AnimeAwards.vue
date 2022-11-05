@@ -165,11 +165,22 @@
      }
      
      @media (min-width: 761px) and (max-width: 1100px) {
-         .titulo p {
+        .titulo p {
              font-size: 28px;
          }
-         .container-titulo, .container-noticias, .barra {
-           width: 800px;
+         .noticia, .divisoria {
+            width: 680px;
+         }
+
+         .icone img {
+            display: none;
+         }
+
+         .banner {
+            padding-left: 12px;
+         }
+         .ads img {
+            width: 650px;
          }
      }
 

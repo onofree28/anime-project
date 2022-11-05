@@ -2,7 +2,7 @@
     <div class="container-noticia">
         <div class="noticia">
             <h1 class="titulo">{{ titulo }}</h1>
-            <p>O estúdio Project No.9 é responsável pela produção</p>
+            <p>A estreia está agendada para janeiro de 2023</p>
             <br>
             <div class="divisoria"></div>
             <br>
@@ -15,36 +15,32 @@
                 </div>
             </div>
             <div class="descricao">
-                <p>Foi revelada hoje uma nova ilustração promocional de Halloween para a adaptação em anime da light novel <span class="crunchy">The Angel Next Door 
-                    Spoils Me Rotten</span>, escrita por <strong>Saekisan</strong> e ilustrada por <strong>Hanekoto</strong>. O anime vai contar com a direção de <span class="crunchy">Kenichi Imaizumi</span> (After 
-                    School Dice Club) no estúdio <span class="crunchy">Project No.9</span> (Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway). O anime 
-                    tem estreia <span class="crunchy">agendada para 2023</span>.</p>
+                <p>Foi revelado recentemente a intérprete para a música de encerramento da adaptação em anime de <span class="crunchy">Sugar Apple Fairy Tale</span>, 
+                    baseado na série de light novels de fantasia escrita por <strong>Miri Mikawa</strong> e ilustrada por <strong>aki</strong> sobre uma jovem fabricante de doces que 
+                    tenta fazer amizade com sua fada guarda-costas.
+                    <br/>
+                    <br>
+                    A música de encerramento, intitulada "Kanaeru" (Para Conceder um Desejo), é interpretada por <strong>Sumire Morohoshi</strong>. A música 
+                    apresenta letras de Yuho Iwasato, composição de Naohiro Minami e arranjo de <strong>NAOKI-T</strong>.
+                   </p>
             </div>
-            <p class="nome-img-promo">Ilustração Promocional de Halloween:</p>
-            <div class="img-promocional">
-                <img src="/img-noticias/the-angel-promocional.jpg" alt="the-angel">
-            </div>
-            <p class="nome-img-promo">Um vídeo também foi lançado para o visual:</p>
+            <p class="nome-img-promo">Vídeo Promocional:</p>
             <div class="video-promocional">
-                <iframe class="video" src="https://www.youtube.com/embed/VA46_oK5FBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/Op1KIOgA3gc" title="TVアニメ『シュガーアップル・フェアリーテイル』ティザーPV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <p class="nome-img-promo">Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/the-angel-promocional2.jpg" alt="the-angel">
+                <img src="/img-noticias/sugar-apple-promocional.jpg" alt="the-angel">
             </div>
             <div class="descricao">
-               <p>Além de <strong>Kenichi Imaizumi</strong> (After School Dice Club) na direção, <strong>Keiichiro Ochi</strong> (<span class="crunchy">The Quintessential Quintuplets</span>) escreverá a 
-                composição da série a partir dos light novels originais de Saekisan. <strong>Takayuki Noguchi</strong> (Queen's Blade) adaptará os designs 
-                originais dos personagens de Hanekoto para a animação e <strong>Moe Hyuga</strong> (Steins;Gate 0) está cuidando da trilha sonora.
+               <p> <span class="crunchy">Sugar Apple Fairy Tale</span> está sendo dirigido por <strong>Yohei Suzuki</strong> (<span class="crunchy">Planet With</span>), junto ao estúdio <strong>J.C. STAFF</strong>. Os roteiros ficam a cargo 
+                de <strong>Seishi Minakami</strong> (<span class="crunchy">A Certain Scientific Railgun</span>), design de personagens por <strong>Haruko Iizuka</strong> (<span class="crunchy">Horimiya</span>) e música por <strong>Hinako 
+                Tsubakiyama</strong> (<span class="crunchy">SABIKUI BISCO</span>). <strong>Yuka Nukui</strong> (Mandara em <span class="crunchy">Shinobi no Ittoki</span>) e <strong>Masaaki Mizunaka</strong> (Ryuuen em <span class="crunchy">Classroom of 
+                the Elite</span>) darão voz aos protagonistas Anne e Challe respectivamente.
                </p>
                <br>
-               <p><strong>Taito Ban</strong> vai interpretar Amane Fujimiya na série, enquanto <strong>Manaka Iwami</strong> faz a voz de Mahiru Shiina, <strong>Taku Yashiro</strong> interpreta 
-                Itsuki Akazawa  e <strong>Haruka Shiraishi</strong> interpreta Chitose Shirakawa.
-               </p>
+               <p>A light novel <span class="crunchy">Sugar Apple Fairy Tale</span> foi lançado originalmente em 17 volumes encadernados entre abril de 2010 e janeiro de 2015!</p>
                <br>
-               <p>A história original de <span class="crunchy">The Angel Next Door Spoils Me Rotten</span> foi lançada inicialmente no site de publicação independente 
-                Shosetsuka ni Naro por Saekisan antes de ser adquirida pela <strong>GA Bunko</strong> e lançada comercialmente com ilustrações de Hanekoto.
-               </p>
             </div>
             <div class="sinopse">
                 <p class="crunchy">Sinopse:</p>
@@ -52,10 +48,10 @@
                 <div class="conteudo-sinopse">
                     <div>
                         <p>
-                            Mahiru é uma garota tão linda que seus colegas a chamam de "anjo". Ela não é apenas uma estrela atlética e com notas 
-                            perfeitas, ela também é linda de morrer. Amane, um cara normal e desleixado assumido, nunca pensou muito na beleza 
-                            divina, apesar de frequentar a mesma escola. Mas tudo muda quando ele vê Mahiru sentada sozinha em um parque 
-                            durante uma tempestade. Assim começa a estranha relação entre este par incrivelmente improvável!
+                            Num mundo onde fadas são compradas e vendidas para quem paga mais, a convivência entre os humanos e o povo feérico 
+                            não é lá muito amigável. Mas amizade é exatamente o que Anne Halford quer de Challe, sua fada guarda-costas, ainda que 
+                            ele não goste tanto da ideia. Como seu mestre, Anne lhe ordena que a escolte por uma área bastante perigosa, mas com um 
+                            guarda-costas ansioso para escapar da escravidão, ela terá que encarar um desafio muito maior do que imaginava...
                         </p>
                     </div>
                 </div>
@@ -79,10 +75,10 @@
         name: 'TheAngel',
         data() {
             return {
-                titulo: `Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween`,
-                banner: '/img-noticias/the-angel-banner.png',
+                titulo: `Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento`,
+                banner: '/img-noticias/sugar-apple-banner.jpg',
                 alt: 'banner-noticia',
-                img: '/img-noticias/the-angel-icone.png',
+                img: '/img-noticias/sugar-apple-icone.jpg',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
             }
@@ -260,7 +256,7 @@
             font-size: 14px;
             font-style: italic;
         }
-        .ads img  {
+        .ads img {
             width: 650px;
         }
      }

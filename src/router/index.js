@@ -70,6 +70,11 @@ const routes = [
     name: 'the-angel-noticia',
     component: () => import('../views/Noticias/TheAngel.vue')
   },
+  {
+    path: '/sugar-apple-noticia',
+    name: 'sugar-apple-noticia',
+    component: () => import('../views/Noticias/SugarApple.vue')
+  },
 ]
 
 const router = createRouter({
