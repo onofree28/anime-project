@@ -54,7 +54,7 @@
 
 <style scoped>
     .container-anime {
-        padding-top: 125px;
+        padding-top: 110px;
     }
     .banner {
         display: flex;
