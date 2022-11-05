@@ -31,4 +31,15 @@ export default {
     background-color: #464646;
   }
 
+  @media (min-width: 100px) and (max-width: 300px) {
+    .header {
+      height: 70px;
+    }
+  }
+  @media (min-width: 301px) and (max-width: 760px) {
+    .header {
+      height: 80px;
+    }
+  }
+
 </style>

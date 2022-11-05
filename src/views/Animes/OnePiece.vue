@@ -122,15 +122,15 @@
 
     @media (min-width: 100px) and (max-width: 300px) {
         .container-anime {
-            padding-top: 115px;
+            padding-top: 85px;
         }
         .banner img {
-            width: 300px;
-            height: 169px;
+            width: 250px;
+            height: 139px;
         }
 
         .info, .titulo {
-            width: 300px;
+            width: 250px;
         }
         .titulo {
             font-size: 12px;
@@ -139,12 +139,12 @@
             font-size: 14px;
         }
         .video {
-            width: 300px;
-            height: 169px;
+            width: 250px;
+            height: 149px;
         }
     }
 
-    @media (min-width: 301px) and (max-width: 500px) {
+    @media (min-width: 301px) and (max-width: 760px) {
         .container-anime {
             padding-top: 95px;
         }
@@ -168,7 +168,7 @@
         }
     }
 
-    @media (min-width: 501px) and (max-width: 1000px) {
+    @media (min-width: 761px) and (max-width: 1000px) {
         .container-anime {
             padding-top: 101px;
         }

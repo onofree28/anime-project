@@ -137,7 +137,34 @@
         padding: 20px;
     }
 
-    @media (min-width: 200px) and (max-width: 760px) {
+    @media (min-width: 100px) and (max-width: 300px) {
+        .noticia, .divisoria {
+            width: 260px;
+        }
+
+        .banner {
+            padding-left: 12px;
+        }
+
+        .banner img {
+            padding-right: 13px;
+            height: 150px;
+            width: 250px;
+        }
+
+        .icone img {
+           display: none;
+        }
+
+        .img-pessoa img {
+            width: 250px;
+            height: 250px;
+        }
+        .ads {
+            display: none;
+        }
+     }
+    @media (min-width: 301px) and (max-width: 760px) {
         .noticia, .divisoria {
             width: 340px;
         }

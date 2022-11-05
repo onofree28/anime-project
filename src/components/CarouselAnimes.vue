@@ -103,7 +103,7 @@
                 ],
                 breakpoints: {
                     // 700px and up
-                    300: {
+                    100: {
                         itemsToShow: 2,
                         snapAlign: 'start',
                     },
@@ -165,7 +165,19 @@
         color: #ff7a00;
     }
 
-    @media (min-width: 200px) and (max-width: 760px) {
+    @media (min-width: 100px) and (max-width: 300px) {
+        .vue-carousel {
+            padding: 0 5px;
+        }
+        .anime img {
+            height: 140px;
+        }
+
+        .nome, .serie {
+            font-size: 10px;
+        }
+    }
+    @media (min-width: 301px) and (max-width: 760px) {
         .vue-carousel {
             padding: 0 5px;
         }

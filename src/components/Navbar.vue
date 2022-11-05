@@ -99,14 +99,35 @@ export default {
         display: none;
     }
 
-    @media (max-width: 1000px) {
+    @media (min-width: 100px) and (max-width: 200px) {
+        #nav {
+            padding: 12px;
+        }
+        #menu {
+            padding-bottom: 15px;
+            font-size: 15px;
+        }
+        #barras {
+            width: 20px;
+        }
+        #logo {
+            width: 80px;
+            height: 60px;
+            padding-right: 20px;
+        }
+    }
+    @media (min-width: 201px) and (max-width: 760px) {
+        #nav {
+            padding: 18px 30px;
+        }
         #menu {
             display: flex;
             color: #ff7a00;
             font-weight: bold;
             justify-content: space-evenly;
+            padding-bottom: 15px;
+            font-size: 18px;
         }
-
         #nav-list {
             display: none;
         }
@@ -151,6 +172,20 @@ export default {
         #nav-list.open > nav {
             overflow: scroll;
         }
+        #barras {
+            width: 30px;
+        }
+        #logo {
+            width: 80px;
+            height: 60px;
+            padding-right: 20px;
+        }
+    }
+
+    @media (min-width: 761px) and (max-width: 1000px) {
+        
+
+        
      }
      
 </style>

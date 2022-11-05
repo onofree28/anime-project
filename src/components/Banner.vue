@@ -75,14 +75,26 @@ export default defineComponent({
         padding-top: 118px;
     }
 
-    @media (min-width: 100px) and (max-width: 500px) {
+    @media (min-width: 100px) and (max-width: 300px) {
+            #main-banner {
+                padding-top: 95px;
+            }
+            #main-banner img {
+                width: 250px;
+                height: 150px;
+            }
+    }
+    @media (min-width: 301px) and (max-width: 760px) {
+            #main-banner {
+                padding-top: 105px;
+            }
             #main-banner img {
                 width: 350px;
                 height: 210px;
             }
     }
 
-    @media (min-width: 501px) and (max-width: 1000px) {
+    @media (min-width: 761px) and (max-width: 1000px) {
             #main-banner img {
                 width: 460px;
                 height: 282px;

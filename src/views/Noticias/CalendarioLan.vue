@@ -462,7 +462,62 @@
         font-size: 14px;
     }
 
-    @media (min-width: 200px) and (max-width: 760px) {
+    @media (min-width: 100px) and (max-width: 300px) {
+        .noticia, .divisoria {
+            width: 260px;
+        }
+
+        .noticia p {
+            font-size: 12px;
+        }
+
+        .calendario {
+            justify-content: center;
+            padding: 2px;
+        }
+
+        .banner img {
+            padding-left: 8px;
+            height: 150px;
+            width: 240px;
+        }
+
+        .icone img {
+            display: none;
+        }
+
+        .container-calendario h1 {
+            font-size: 24px;
+        }
+
+        .titulo-principal, .titulo {
+            font-size: 20px;
+        }
+
+        .capas {
+            width: 140px;
+            height: 320px;
+        }
+
+        .descricao-capa {
+            width: 139px;
+        }
+
+        .capas img {
+            width: 140px;
+            height: 200px;
+        }
+
+        .nome {
+            font-size: 10px;
+            width: 139px;
+        }
+
+        .episodios, .descricao-capa p {
+            font-size: 10px;
+        }
+     }
+    @media (min-width: 301px) and (max-width: 760px) {
         .noticia, .divisoria {
             width: 340px;
         }
