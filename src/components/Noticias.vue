@@ -13,7 +13,9 @@
                             <router-link @click.native="scrollToTop()" :to="destaque.link">
                                 <img :src="destaque.img" :alt="destaque.alt">
                             </router-link> 
-                            <p>{{ destaque.titulo }}</p>
+                            <router-link @click.native="scrollToTop()" style="text-decoration: none" :to="destaque.link">
+                                <p>{{ destaque.titulo }}</p>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -23,11 +25,22 @@
                     <p class="recentes-titulo">Mais recentes</p>
                     <div class="categoria2" v-for="noticia in noticias" :key="noticia.id">
                         <div class="noticias">
-                            <router-link @click="scrollToTop()"
+                            <router-link @click.native="scrollToTop()"
                                  :to="noticia.link">
                                 <img :src="noticia.img" :alt="noticia.alt">
                             </router-link>
-                            <p>{{ noticia.titulo }}</p>
+                            <router-link @click.native="scrollToTop()"
+                                :to="noticia.link"
+                                style="text-decoration: none;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                white-space: nowrap;
+                                color: aliceblue;
+                                padding-left: 10px;
+                                font-size: 16px;
+                                height: 80px;">
+                                <p>{{ noticia.titulo }}</p>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -241,6 +254,9 @@
         height: 140px;
         object-fit: cover;
     }
+    .destaque p {
+        color: aliceblue;
+    }
 
     .container-recentes {
         display: flex;
@@ -269,14 +285,6 @@
 
     .categoria2:nth-child(n+8) {
         display: none;
-    }
-
-    .noticias p {
-        padding-left: 10px;
-        font-size: 16px;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
     }
 
     .noticias img {
