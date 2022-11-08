@@ -85,6 +85,11 @@ const routes = [
     name: 'spy-classroom-noticia',
     component: () => import('../views/Noticias/SpyClassroom.vue')
   },
+  {
+    path: '/kaguya-sama-noticia',
+    name: 'kaguya-sama-noticia',
+    component: () => import('../views/Noticias/KaguyaSama.vue')
+  },
 ]
 
 const router = createRouter({

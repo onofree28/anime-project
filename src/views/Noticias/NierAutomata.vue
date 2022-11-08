@@ -30,7 +30,7 @@
             </div>
             <p class="nome-img-promo">Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/nier-automata-promocional.jpg" alt="nier-automata">
+                <img src="/img-noticias/nier-automata/nier-automata-promocional.jpg" alt="nier-automata">
             </div>
             <div class="descricao">
                <p>O jogo original <strong>NieR:Automata</strong> foi lançado no PlayStation 4 no Japão em 23 de fevereiro de 2017, com a América do Norte
@@ -59,9 +59,9 @@
         data() {
             return {
                 titulo: `Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal`,
-                banner: '/img-noticias/nier-automata-banner.jpg',
+                banner: '/img-noticias/nier-automata/nier-automata-banner.jpg',
                 alt: 'banner-noticia',
-                img: '/img-noticias/nier-automata-icone.jpg',
+                img: '/img-noticias/nier-automata/nier-automata-icone.jpg',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
             }

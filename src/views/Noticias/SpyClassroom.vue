@@ -35,7 +35,7 @@
             </div>
             <p class="nome-img-promo">Ilustração Promocional da Sibylla:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/spy-classroom-promocional.jpg" alt="spy-classroom">
+                <img src="/img-noticias/spy-classroom/spy-classroom-promocional.jpg" alt="spy-classroom">
             </div>
             <br>
             <p class="nome-img-promo">Segundo Vídeo Promocional:</p>
@@ -50,7 +50,7 @@
             </div>
             <p class="nome-img-promo">Nova Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/spy-classroom-promocional2.png" alt="spy-classroom">
+                <img src="/img-noticias/spy-classroom/spy-classroom-promocional2.png" alt="spy-classroom">
             </div>
             <p class="nome-img-promo">Segundo Vídeo Promocional:</p>
             <div class="video-promocional">
@@ -58,12 +58,12 @@
             </div>
             <p class="nome-img-promo">Primeira Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/spy-classroom-promocional3.jpg" alt="spy-classroom">
+                <img src="/img-noticias/spy-classroom/spy-classroom-promocional3.jpg" alt="spy-classroom">
             </div>
             <p class="nome-img-promo">Capas dos volumes 1 ao 7 das light novels:</p>
             <div class="img-capas">
-                <img class="capas" src="/img-noticias/spy-classroom-capas.png" alt="spy-classroom">
-                <img class="capa" src="/img-noticias/spy-classroom-capa.png" alt="spy-classroom">
+                <img class="capas" src="/img-noticias/spy-classroom/spy-classroom-capas.png" alt="spy-classroom">
+                <img class="capa" src="/img-noticias/spy-classroom/spy-classroom-capa.png" alt="spy-classroom">
             </div>
             <br>
             <div class="sinopse">
@@ -101,9 +101,9 @@
         data() {
             return {
                 titulo: `Adaptação em anime de Spy Classroom ganha novo vídeo promocional focado na Sibylla`,
-                banner: '/img-noticias/spy-classroom-banner.png',
+                banner: '/img-noticias/spy-classroom/spy-classroom-banner.png',
                 alt: 'banner-noticia',
-                img: '/img-noticias/spy-classroom-icone.png',
+                img: '/img-noticias/spy-classroom/spy-classroom-icone.png',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
 

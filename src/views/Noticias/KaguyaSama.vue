@@ -2,7 +2,7 @@
     <div class="container-noticia">
         <div class="noticia">
             <h1 class="titulo">{{ titulo }}</h1>
-            <p>O estúdio Project No.9 é responsável pela produção</p>
+            <p>A estreia está agendada para janeiro de 2023</p>
             <br>
             <div class="divisoria"></div>
             <br>
@@ -15,36 +15,44 @@
                 </div>
             </div>
             <div class="descricao">
-                <p>Foi revelada hoje uma nova ilustração promocional de Halloween para a adaptação em anime da light novel <span class="crunchy">The Angel Next Door 
-                    Spoils Me Rotten</span>, escrita por <strong>Saekisan</strong> e ilustrada por <strong>Hanekoto</strong>. O anime vai contar com a direção de <span class="crunchy">Kenichi Imaizumi</span> (After 
-                    School Dice Club) no estúdio <span class="crunchy">Project No.9</span> (Higehiro: After Being Rejected, I Shaved and Took in a High School Runaway). O anime 
-                    tem estreia <span class="crunchy">agendada para 2023</span>.</p>
+                <p>Foi revelado hoje que o especial <span class="crunchy">Kaguya-sama: Love is War -The First Kiss That Never Ends-</span>, sequência da terceira temporada
+                    de <span class="crunchy">KAGUYA-SAMA: LOVE IS WAR</span>, tem estreia agendada para o dia <strong>17 de dezembro</strong> nos cinemas do Japão, antes de chegar nas
+                    TVs. Também foi divulgado que uma pré-estreia com a primeira parte do especial, com duração aproximada de um episódio, será
+                    exibida no evento <strong>Anime NYC</strong>, em <strong>19 de novembro</strong> nos EUA.
+                    <br/>
+                    <br>
+                    O anime conta com a produção de uma equipe poderosa no estúdio <span class="crunchy">A-1 Pictures</span> (86 Eighty-Six), com <span class="crunchy">Mamoru Hatakeyama</span>
+                    (Record of Grancrest War) na direção, <span class="crunchy">Yasuhiro Nakanishi</span> (A Couple of Cuckoos) na composição de série, <span class="crunchy">Yuuko Yahiro</span> (Record
+                    of Grancrest War) na adaptação do design de personagens para o anime e <span class="crunchy">Kei Haneoka</span> (Owarimonogatari) na trilha sonora.
+                   </p>
             </div>
-            <p class="nome-img-promo">Ilustração Promocional de Halloween:</p>
-            <div class="img-promocional">
-                <img src="/img-noticias/the-angel/the-angel-promocional.jpg" alt="the-angel">
-            </div>
-            <p class="nome-img-promo">Um vídeo também foi lançado para o visual:</p>
+            <p class="nome-img-promo">Novo Vídeo Promocional:</p>
             <div class="video-promocional">
-                <iframe class="video" src="https://www.youtube.com/embed/VA46_oK5FBU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe class="video" src="https://www.youtube.com/embed/Z_wwt_eYmdE" title="【特報】「かぐや様は告らせたい-ファーストキッスは終わらない-」2022年12月17日㈯より特別上映" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <p class="nome-img-promo">Ilustração Promocional:</p>
+            <p class="nome-img-promo">Ilustração Promocional :</p>
             <div class="img-promocional">
-                <img src="/img-noticias/the-angel/the-angel-promocional2.jpg" alt="the-angel">
+                <img src="/img-noticias/kaguya-sama/kaguya-sama-promocional.jpg" alt="nier-automata">
+            </div>
+            <div class="twitter">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/NEWS?src=hash&amp;ref_src=twsrc%5Etfw">#NEWS</a> An early Christmas present arrives to <a href="https://twitter.com/animenyc?ref_src=twsrc%5Etfw">@animenyc</a> with the world premiere preview screening of the first part (about one episode length) of the highly anticipated Kaguya-sama: Love Is War -The First Kiss That Never Ends- on November 19th! 🎁🗽 <a href="https://t.co/eaYqA6J9h6">pic.twitter.com/eaYqA6J9h6</a></p>&mdash; Aniplex of America (@aniplexUSA) <a href="https://twitter.com/aniplexUSA/status/1586668550386724864?ref_src=twsrc%5Etfw">October 30, 2022</a></blockquote> 
             </div>
             <div class="descricao">
-               <p>Além de <strong>Kenichi Imaizumi</strong> (After School Dice Club) na direção, <strong>Keiichiro Ochi</strong> (<span class="crunchy">The Quintessential Quintuplets</span>) escreverá a 
-                composição da série a partir dos light novels originais de Saekisan. <strong>Takayuki Noguchi</strong> (Queen's Blade) adaptará os designs 
-                originais dos personagens de Hanekoto para a animação e <strong>Moe Hyuga</strong> (Steins;Gate 0) está cuidando da trilha sonora.
+               <p><strong>Aoi Koga</strong>, responsável pela voz original de Kaguya Shinomiya estará presente no evento como convidada especial ao lado do
+                produtor da A-1 Pictures, <strong>Yuichiro Kikuchi</strong>, e do produtor da Aniplex, <strong>Tatsuya Ishikawa</strong>.
                </p>
                <br>
-               <p><strong>Taito Ban</strong> vai interpretar Amane Fujimiya na série, enquanto <strong>Manaka Iwami</strong> faz a voz de Mahiru Shiina, <strong>Taku Yashiro</strong> interpreta 
-                Itsuki Akazawa  e <strong>Haruka Shiraishi</strong> interpreta Chitose Shirakawa.
-               </p>
-               <br>
-               <p>A história original de <span class="crunchy">The Angel Next Door Spoils Me Rotten</span> foi lançada inicialmente no site de publicação independente 
-                Shosetsuka ni Naro por Saekisan antes de ser adquirida pela <strong>GA Bunko</strong> e lançada comercialmente com ilustrações de Hanekoto.
-               </p>
+            </div>
+            <div class="img-promo2">
+                <img src="/img-noticias/kaguya-sama/kaguya-sama-promocional2.jpg" alt="nier-automata">
+            </div>
+            <p class="nome-img-promo">Vídeo Promocional do Anime :</p>
+            <div class="video-promocional">
+                <iframe class="video" src="https://www.youtube.com/embed/b4tGGzQve3M" title="「かぐや様は告らせたい-ウルトラロマンティック-」本予告 / 4月8日㈮24時放送開始" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <p class="nome-img-promo">Ilustração Promocional :</p>
+            <div class="img-promocional">
+                <img src="/img-noticias/kaguya-sama/kaguya-sama-promocional3.jpg" alt="nier-automata">
             </div>
             <div class="sinopse">
                 <p class="crunchy">Sinopse:</p>
@@ -52,10 +60,15 @@
                 <div class="conteudo-sinopse">
                     <div>
                         <p>
-                            Mahiru é uma garota tão linda que seus colegas a chamam de "anjo". Ela não é apenas uma estrela atlética e com notas 
-                            perfeitas, ela também é linda de morrer. Amane, um cara normal e desleixado assumido, nunca pensou muito na beleza 
-                            divina, apesar de frequentar a mesma escola. Mas tudo muda quando ele vê Mahiru sentada sozinha em um parque 
-                            durante uma tempestade. Assim começa a estranha relação entre este par incrivelmente improvável!
+                            Considerado um gênio por possuir as maiores notas do país, Miyuki Shirogane é o presidente do grêmio estudantil da
+                            prestigiosa escola Shuchiin, trabalhando junto com a bela e rica vice-presidente Kaguya Shinomiya. Os dois são
+                            considerados como o casal perfeito entre os estudantes da Shuchiin, apesar de que eles não estejam em um
+                            relacionamento amoroso.
+                            <br><br>
+                            Contudo, depois de passar tanto tempo juntos, os dois acabaram se apaixonando. Infelizmente, nenhum dos dois está
+                            disposto em admitir seus sentimentos e confessar para o outro. Já que ambos enxergam isso como um sinal de fraqueza.
+                            Agarrando-se ao orgulho e transformando o amor em um campo de batalha, os dois se dedicam em bolar estratégias para
+                            fazer o outro confessar seu amor primeiro.
                         </p>
                     </div>
                 </div>
@@ -76,13 +89,13 @@
 
 <script>
     export default {
-        name: 'TheAngel',
+        name: 'KaguyaSama',
         data() {
             return {
-                titulo: `Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween`,
-                banner: '/img-noticias/the-angel/the-angel-banner.png',
+                titulo: `Kaguya-sama: Love is War -The First Kiss That Never Ends- ganha vídeo promocional e data de estreia`,
+                banner: '/img-noticias/kaguya-sama/kaguya-sama-banner.jpg',
                 alt: 'banner-noticia',
-                img: '/img-noticias/the-angel/the-angel-icone.png',
+                img: '/img-noticias/kaguya-sama/kaguya-sama-icone.jpg',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
             }
@@ -141,9 +154,19 @@
         justify-content: center;
         align-items: center;
     }
+    .twitter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 25px;
+    }
     .img-promocional img {
         width: 640px;
         height: 905px;
+    }
+    .img-promo2 {
+        display: flex;
+        justify-content: center;
     }
 
     .video-promocional {
@@ -161,6 +184,10 @@
         color: #ff7a00;
         font-weight: bold;
         margin: 10px 0 10px 0;
+        font-style: italic;
+    }
+    .sinopse {
+        padding-top: 10px;
     }
 
     .sinopse p {
@@ -213,8 +240,10 @@
 
         .img-promocional img {
             width: 250px;
-            height: 370px;
+            height: 360px;
         }
+        
+
 
         .video {
             width: 250px;
@@ -227,6 +256,8 @@
             width: 260px;
             font-style: italic;
         }
+
+    
         .ads {
             display: none;
         }
@@ -259,7 +290,12 @@
 
         .img-promocional img {
             width: 300px;
-            height: 390px;
+            height: 420px;
+        }
+        .img-promo2{
+            display: flex;
+            justify-content: center;
+            height: 180px;
         }
 
         .video {
@@ -273,6 +309,7 @@
             width: 300px;
             font-style: italic;
         }
+    
         .ads {
             display: none;
         }
@@ -293,6 +330,11 @@
          .banner {
             padding-left: 12px;
          }
+         .img-promo2{
+            display: flex;
+            justify-content: center;
+            height: 360px;
+        }
 
          .video {
             width: 640px;
@@ -306,7 +348,7 @@
             font-size: 14px;
             font-style: italic;
         }
-        .ads img  {
+        .ads img {
             width: 650px;
         }
      }

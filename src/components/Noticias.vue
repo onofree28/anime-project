@@ -62,37 +62,37 @@
                     {
                         id: 12,
                         titulo: 'Adaptação em anime de The Angel Next Door Spoils Me Rotten ganha nova ilustração promocional de Halloween',
-                        img: '/img-noticias/the-angel-noticia.jpg',
+                        img: '/img-noticias/the-angel/the-angel-noticia.jpg',
                         alt: 'the-angel-noticia-imagem',
                         link: '/the-angel-noticia'
                     },
                     {
                         id: 11,
                         titulo: 'Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento',
-                        img: '/img-noticias/sugar-apple-noticia.jpg',
+                        img: '/img-noticias/sugar-apple/sugar-apple-noticia.jpg',
                         alt: 'sugar-apple-noticia-imagem',
                         link: '/sugar-apple-noticia'
                     },
                     {
                         id: 10,
                         titulo: 'Anime de NieR:Automata Ver1.1a ganha novo trailer focado no Pascal',
-                        img: '/img-noticias/nier-automata-noticia.jpg',
+                        img: '/img-noticias/nier-automata/nier-automata-noticia.jpg',
                         alt: 'nier-automata-noticia-imagem',
                         link: '/nier-automata-noticia'
                     },
                     {
                         id: 9,
                         titulo: 'Adaptação em anime de Spy Classroom ganha novo vídeo promocional focado na Sibylla',
-                        img: '/img-noticias/spy-classroom-noticia.jpg',
+                        img: '/img-noticias/spy-classroom/spy-classroom-noticia.jpg',
                         alt: 'spy-classroom-noticia-imagem',
                         link: '/spy-classroom-noticia'
                     },
                     {
                         id: 8,
                         titulo: 'Kaguya-sama: Love is War -The First Kiss That Never Ends- ganha vídeo promocional e data de estreia',
-                        img: '/img-noticias/kaguya-sama-noticia.jpg',
+                        img: '/img-noticias/kaguya-sama/kaguya-sama-noticia.jpg',
                         alt: 'kaguya-sama-noticia-imagem',
-                        link: '/the-angel-noticia'
+                        link: '/kaguya-sama-noticia'
                     },
                     {
                         id: 7,

@@ -30,7 +30,7 @@
             </div>
             <p class="nome-img-promo">Ilustração Promocional:</p>
             <div class="img-promocional">
-                <img src="/img-noticias/sugar-apple-promocional.jpg" alt="sugar-apple">
+                <img src="/img-noticias/sugar-apple/sugar-apple-promocional.jpg" alt="sugar-apple">
             </div>
             <div class="descricao">
                <p> <span class="crunchy">Sugar Apple Fairy Tale</span> está sendo dirigido por <strong>Yohei Suzuki</strong> (<span class="crunchy">Planet With</span>), junto ao estúdio <strong>J.C. STAFF</strong>. Os roteiros ficam a cargo 
@@ -76,9 +76,9 @@
         data() {
             return {
                 titulo: `Adaptação em anime de Sugar Apple Fairy Tale revela intérprete para sua música de encerramento`,
-                banner: '/img-noticias/sugar-apple-banner.jpg',
+                banner: '/img-noticias/sugar-apple/sugar-apple-banner.jpg',
                 alt: 'banner-noticia',
-                img: '/img-noticias/sugar-apple-icone.jpg',
+                img: '/img-noticias/sugar-apple/sugar-apple-icone.jpg',
                 alt2: 'icone-noticia',
                 link: 'https://www.crunchyroll.com/pt-br',
             }
