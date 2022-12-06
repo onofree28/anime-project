@@ -90,6 +90,11 @@ const routes = [
     name: 'kaguya-sama-noticia',
     component: () => import('../views/Noticias/KaguyaSama.vue')
   },
+  {
+    path: '/more-than-noticia',
+    name: 'more-than-noticia',
+    component: () => import('../views/Noticias/MoreThan.vue')
+  },
 ]
 
 const router = createRouter({

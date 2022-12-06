@@ -110,9 +110,9 @@
                     {
                         id: 7,
                         titulo: 'Conheça o elenco brasileiro da dublagem de More than a Married Couple, but Not Lovers.',
-                        img: '/img-noticias/more-than-noticia.jpg',
+                        img: '/img-noticias/more-than/more-than-noticia.jpg',
                         alt: 'more-than-noticia-imagem',
-                        link: '/the-angel-noticia'
+                        link: '/more-than-noticia'
                     },
                     {
                         id: 6,
@@ -219,6 +219,7 @@
         font-size: 16px;
     }
 
+
     .categoria :hover {
         background-color: #616161;
         transition: 0.5s;
@@ -246,8 +247,9 @@
     }
 
     .destaque {
-        padding: 30px 10px 30px 30px;
+        padding: 20px 20px 20px 20px;
         width: 250px;
+        margin: 10px;
     }
     .destaque img {
         width: 250px;
@@ -371,7 +373,7 @@
         .container-destaque {
             justify-content: space-evenly;
             flex-direction: row;
-            padding: 10px 0 0 0;
+            padding: 10px;
             width: 250px;
             height: 250px;
         }
@@ -383,7 +385,8 @@
 
         .destaque {
             width: 150px;
-            padding-left: 10px;
+            padding: 10px 10px;
+            margin: 0;
         }
 
         .indice {

@@ -111,6 +111,11 @@
                         itemsToShow: 3,
                         snapAlign: 'start',
                     },
+
+                    1000: {
+                        itemsToShow: 4,
+                        snapAlign: 'start',
+                    },
                     // 1024 and up
                     1024: {
                         itemsToShow: 5,
@@ -129,7 +134,7 @@
 
 <style scoped>
     .vue-carousel {
-        padding: 0 280px 0 280px;
+        padding: 0 300px 0 300px;
     }
 
     .container-animes {
