@@ -4,7 +4,7 @@
     <div class="container-home">
       <div class="home">
         <p class="titulo" id="titulo">Animes</p>
-        <a href="">Ver todos</a>
+        <router-link to="/todos-animes">Ver Todos</router-link>
       </div>
       <div class="barra"></div>
     </div>
