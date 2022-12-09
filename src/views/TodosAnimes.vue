@@ -3,7 +3,20 @@
         <div class="container-pesquisa">
             <div class="search-box">
                 <fa class="icon" icon="fa-solid fa-magnifying-glass" />
-                <input class="text" type="text" placeholder="Pesquise">
+                <input class="text" type="text" placeholder="Pesquise" v-model="search">
+            </div>
+        </div>
+        <div class="container-animes">
+            <div class="cada-anime" v-for="anime in animesFiltrados" :key="anime.id">
+                <div class="animes">
+                        <router-link @click="scrollToTop()" :to="anime.link">
+                            <img :src="anime.img" :alt="anime.alt">
+                        </router-link>
+                        <router-link @click="scrollToTop()" style="text-decoration: none;" :to="anime.link">
+                            <p class="nome">{{ anime.nome }}</p>
+                        </router-link>
+                        <p class="serie">{{ anime.tipo }}</p>
+                    </div>
             </div>
         </div>
     </div>
@@ -14,6 +27,7 @@ export default {
     name: 'TodosAnimes',
     data() {
         return {
+            search: '',
             animes: [
                     {
                         id:1,
@@ -81,14 +95,24 @@ export default {
                     },
                 ],
         }
-    }
+    },
+    computed: {
+        animesFiltrados() {
+            return this.animes.filter(anime => anime.nome.toLowerCase().includes(this.search.toLowerCase()))
+        }
+    },
+    methods: {
+            scrollToTop() {
+                window.scrollTo(0,0)
+            }
+        }
 }
 </script>
 
 <style scoped>
     .container-todos {
         padding-top: 150px;
-        height: 100vh;
+        height: 120vh;
     }
 
     .container-pesquisa {
@@ -120,6 +144,38 @@ export default {
         font-size: 15px;
     }
 
+    .container-animes {
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .container-animes :hover {
+        background-color: #616161;
+        transition: 0.5s;
+    }
+
+    .animes {
+        padding: 15px;
+    }
+
+    .animes img {
+        height: 212px;
+        width: 145px;
+    }
+
+    .nome {
+        color: aliceblue;
+        font-size: 14px;
+    }
+    
+    .serie {
+        font-size: 14px;
+        color: #ff7a00;
+    }
+
+
     @media (min-width: 200px) and (max-width: 575px) {
         .search-box {
             background-color: #464646;
@@ -129,4 +185,21 @@ export default {
             padding: 10px;
     }
 }
+    @media (min-width: 100px) and (max-width: 730px) {
+        .cada-anime:nth-child(n+7) {
+            display: none;
+        }
+    }
+
+    @media (min-width: 100px) and (max-width: 370px) {
+        
+        .animes img {
+            height: 175px;
+            width: 120px;
+        }
+
+        .nome, .serie {
+            font-size: 12px;
+        }
+    }
 </style>

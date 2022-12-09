@@ -4,7 +4,7 @@
     <div class="container-home">
       <div class="home">
         <p class="titulo" id="titulo">Animes</p>
-        <router-link to="/todos-animes">Ver Todos</router-link>
+        <router-link @click.native="scrollToTop()" to="/todos-animes">Ver Todos</router-link>
       </div>
       <div class="barra"></div>
     </div>
@@ -30,7 +30,12 @@ export default {
     CarouselAnimes,
     Noticias,
     Banner
-}
+},
+methods: {
+            scrollToTop() {
+                window.scrollTo(0,0)
+            }
+        }
 }
 </script>
 <style>
