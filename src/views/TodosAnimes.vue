@@ -122,6 +122,10 @@ export default {
     },
     computed: {
         animesFiltrados() {
+                this.animes.sort(function(x, y) {
+                    let a = x.nome.toUpperCase(), b = y.nome.toUpperCase()
+                    return a == b ? 0 : a > b ? 1 : -1
+                })
                 return this.animes.filter(anime => anime.nome.toLowerCase().includes(this.search.toLowerCase()))
         }
     },

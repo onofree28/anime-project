@@ -133,7 +133,7 @@ export default {
             display: none;
         }
         #nav-list a {
-            font-size: 25px;
+            font-size: 20px;
             padding: 30px;
             @keyframes NavLinkFade {
                 from {
