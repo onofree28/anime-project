@@ -9,14 +9,14 @@
         <div class="container-animes">
             <div class="cada-anime" v-for="anime in animesFiltrados" :key="anime.id">
                 <div class="animes">
-                        <router-link @click="scrollToTop()" :to="anime.link">
-                            <img :src="anime.img" :alt="anime.alt">
-                        </router-link>
-                        <router-link @click="scrollToTop()" style="text-decoration: none;" :to="anime.link">
-                            <p class="nome">{{ anime.nome }}</p>
-                        </router-link>
-                        <p class="serie">{{ anime.tipo }}</p>
-                    </div>
+                    <router-link @click="scrollToTop()" :to="anime.link">
+                        <img :src="anime.img" :alt="anime.alt">
+                    </router-link>
+                    <router-link @click="scrollToTop()" style="text-decoration: none;" :to="anime.link">
+                        <p class="nome">{{ anime.nome }}</p>
+                    </router-link>
+                    <p class="serie">{{ anime.tipo }}</p>
+                </div>
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@ export default {
     },
     computed: {
         animesFiltrados() {
-            return this.animes.filter(anime => anime.nome.toLowerCase().includes(this.search.toLowerCase()))
+                return this.animes.filter(anime => anime.nome.toLowerCase().includes(this.search.toLowerCase()))
         }
     },
     methods: {
@@ -112,7 +112,7 @@ export default {
 <style scoped>
     .container-todos {
         padding-top: 150px;
-        height: 120vh;
+        height: 130vh;
     }
 
     .container-pesquisa {
@@ -191,7 +191,7 @@ export default {
         }
     }
 
-    @media (min-width: 100px) and (max-width: 370px) {
+    @media (min-width: 100px) and (max-width: 420px) {
         
         .animes img {
             height: 175px;
