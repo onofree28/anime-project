@@ -61,6 +61,21 @@ const routes = [
     component: () => import('../views/Animes/SpyFamily.vue')
   },
   {
+    path: '/chainsaw-man',
+    name: 'chainsaw-man',
+    component: () => import('../views/Animes/ChainsawMan.vue')
+  },
+  {
+    path: '/boruto',
+    name: 'boruto',
+    component: () => import('../views/Animes/Boruto.vue')
+  },
+  {
+    path: '/naruto-shippuden',
+    name: 'naruto-shippuden',
+    component: () => import('../views/Animes/NarutoShippuden.vue')
+  },
+  {
     path: '/calendario',
     name: 'calendario',
     component: () => import('../views/Noticias/CalendarioLan.vue')

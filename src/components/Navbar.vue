@@ -9,6 +9,7 @@
         </div>
         <div id="nav-list">
             <router-link @click="showMenu(), scrollToTop()" to="/">Inicio</router-link>
+            <router-link @click="showMenu(), scrollToTop()" to="/todos-animes">Animes</router-link>
             <router-link @click="showMenu(), scrollToTop()" to="/about">Sobre</router-link>
         </div>
     </nav>

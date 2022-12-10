@@ -93,6 +93,30 @@ export default {
                         tipo: 'Série',
                         link: '/spy-family'
                     },
+                    {
+                        id:9,
+                        img: '/img/chainsaw-man.jpg',
+                        alt: 'Chainsaw Man',
+                        nome: 'Chainsaw Man',
+                        tipo: 'Série',
+                        link: '/chainsaw-man'
+                    },
+                    {
+                        id:10,
+                        img: '/img/boruto.jpg',
+                        alt: 'Boruto',
+                        nome: 'Boruto',
+                        tipo: 'Série',
+                        link: '/boruto'
+                    },
+                    {
+                        id:11,
+                        img: '/img/naruto-shippuden.jpg',
+                        alt: 'Naruto Shippuden',
+                        nome: 'Naruto Shippuden',
+                        tipo: 'Série',
+                        link: '/naruto-shippuden'
+                    },
                 ],
         }
     },
